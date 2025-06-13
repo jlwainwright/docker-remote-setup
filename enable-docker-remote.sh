@@ -6,34 +6,52 @@ set -e
 
 echo "? Enabling Docker Remote Access..."
 
-# Detect init system
-if command -v systemctl >/dev/null 2>&1; then
-    INIT_SYSTEM="systemd"
-elif command -v rc-service >/dev/null 2>&1; then
+# Detect init system and OS
+if [ -f /etc/alpine-release ]; then
     INIT_SYSTEM="openrc"
+    OS="alpine"
+elif command -v rc-service >/dev/null 2>&1 && [ -d /etc/runlevels ]; then
+    INIT_SYSTEM="openrc"
+    OS="alpine"
+elif command -v systemctl >/dev/null 2>&1 && systemctl --version >/dev/null 2>&1; then
+    INIT_SYSTEM="systemd"
+    OS="systemd-based"
 elif command -v service >/dev/null 2>&1; then
     INIT_SYSTEM="sysvinit"
+    OS="sysvinit-based"
 else
     echo "? Unsupported init system"
     exit 1
 fi
 
-echo "? Detected init system: $INIT_SYSTEM"
+echo "? Detected OS: $OS, Init system: $INIT_SYSTEM"
 
 # Create docker directory if it doesn't exist
-sudo mkdir -p /etc/docker
+# Handle Alpine Linux which may not have sudo
+if command -v sudo >/dev/null 2>&1; then
+    SUDO="sudo"
+else
+    SUDO=""
+    if [ "$(id -u)" != "0" ]; then
+        echo "? This script requires root privileges"
+        echo "Please run as root or install sudo"
+        exit 1
+    fi
+fi
+
+$SUDO mkdir -p /etc/docker
 
 # Backup existing daemon.json if it exists
 if [ -f /etc/docker/daemon.json ]; then
     echo "? Backing up existing daemon.json..."
-    sudo cp /etc/docker/daemon.json /etc/docker/daemon.json.backup.$(date +%s)
+    $SUDO cp /etc/docker/daemon.json /etc/docker/daemon.json.backup.$(date +%s)
 fi
 
 # Create or update daemon.json
 echo "??  Configuring Docker daemon..."
 if [ -f /etc/docker/daemon.json ] && [ -s /etc/docker/daemon.json ]; then
     # Merge with existing configuration
-    sudo python3 -c "
+    $SUDO python3 -c "
 import json
 import sys
 
@@ -59,41 +77,41 @@ with open('/etc/docker/daemon.json', 'w') as f:
     json.dump(config, f, indent=2)
 " 2>/dev/null || {
     # Fallback if python3 not available
-    echo '{"hosts": ["unix:///var/run/docker.sock", "tcp://0.0.0.0:2375"]}' | sudo tee /etc/docker/daemon.json > /dev/null
+    echo '{"hosts": ["unix:///var/run/docker.sock", "tcp://0.0.0.0:2375"]}' | $SUDO tee /etc/docker/daemon.json > /dev/null
 }
 else
     # Create new configuration
-    echo '{"hosts": ["unix:///var/run/docker.sock", "tcp://0.0.0.0:2375"]}' | sudo tee /etc/docker/daemon.json > /dev/null
+    echo '{"hosts": ["unix:///var/run/docker.sock", "tcp://0.0.0.0:2375"]}' | $SUDO tee /etc/docker/daemon.json > /dev/null
 fi
 
 echo "? Docker daemon configuration:"
-sudo cat /etc/docker/daemon.json
+$SUDO cat /etc/docker/daemon.json
 
 # Handle systemd override for hosts parameter
 if [ "$INIT_SYSTEM" = "systemd" ]; then
     echo "? Creating systemd override..."
-    sudo mkdir -p /etc/systemd/system/docker.service.d
-    sudo tee /etc/systemd/system/docker.service.d/override.conf > /dev/null << 'EOF'
+    $SUDO mkdir -p /etc/systemd/system/docker.service.d
+    $SUDO tee /etc/systemd/system/docker.service.d/override.conf > /dev/null << 'EOF'
 [Service]
 ExecStart=
 ExecStart=/usr/bin/dockerd
 EOF
-    sudo systemctl daemon-reload
+    $SUDO systemctl daemon-reload
 fi
 
 # Restart Docker daemon
 echo "? Restarting Docker daemon..."
 case $INIT_SYSTEM in
     systemd)
-        sudo systemctl restart docker
-        sudo systemctl enable docker
+        $SUDO systemctl restart docker
+        $SUDO systemctl enable docker
         ;;
     openrc)
-        sudo rc-service docker restart
-        sudo rc-update add docker default
+        $SUDO rc-service docker restart 2>/dev/null || rc-service docker restart
+        $SUDO rc-update add docker default 2>/dev/null || rc-update add docker default
         ;;
     sysvinit)
-        sudo service docker restart
+        $SUDO service docker restart
         ;;
 esac
 
@@ -124,10 +142,14 @@ else
     echo "? Checking logs..."
     case $INIT_SYSTEM in
         systemd)
-            sudo journalctl -u docker --no-pager -n 10
+            $SUDO journalctl -u docker --no-pager -n 10
+            ;;
+        openrc)
+            echo "Checking Alpine/OpenRC Docker logs..."
+            $SUDO tail -10 /var/log/docker.log 2>/dev/null || echo "No Docker logs found"
             ;;
         *)
-            sudo tail -10 /var/log/docker.log 2>/dev/null || echo "No Docker logs found"
+            $SUDO tail -10 /var/log/docker.log 2>/dev/null || echo "No Docker logs found"
             ;;
     esac
     exit 1

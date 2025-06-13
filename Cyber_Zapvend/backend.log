@@ -1,0 +1,622 @@
+INFO:     Will watch for changes in these directories: ['/Users/jacques/DevFolder/Cyber_Zapvend']
+INFO:     Uvicorn running on http://0.0.0.0:8001 (Press CTRL+C to quit)
+INFO:     Started reloader process [90141] using WatchFiles
+INFO:     Started server process [90147]
+INFO:     Waiting for application startup.
+2025-05-31 17:23:21,992 - DEBUG - executing <function connect.<locals>.connector at 0x103c3f600>
+2025-05-31 17:23:21,994 - DEBUG - operation <function connect.<locals>.connector at 0x103c3f600> completed
+2025-05-31 17:23:21,994 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1040d56c0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x102c47a60>, deterministic=True)
+2025-05-31 17:23:21,994 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1040d56c0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x102c47a60>, deterministic=True) completed
+2025-05-31 17:23:21,994 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1040d56c0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-05-31 17:23:21,994 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1040d56c0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-05-31 17:23:21,995 - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1040d56c0>)
+2025-05-31 17:23:21,995 - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1040d56c0>) completed
+2025-05-31 17:23:21,996 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1040ee1c0>, 'PRAGMA read_uncommitted', [])
+2025-05-31 17:23:21,996 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1040ee1c0>, 'PRAGMA read_uncommitted', []) completed
+2025-05-31 17:23:21,997 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1040ee1c0>)
+2025-05-31 17:23:21,997 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1040ee1c0>) completed
+2025-05-31 17:23:21,997 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x1040ee1c0>)
+2025-05-31 17:23:21,997 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x1040ee1c0>) completed
+2025-05-31 17:23:21,998 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1040d56c0>)
+2025-05-31 17:23:21,998 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1040d56c0>) completed
+2025-05-31 17:23:21,998 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-05-31 17:23:21,998 - INFO - BEGIN (implicit)
+2025-05-31 17:23:21,998 INFO sqlalchemy.engine.Engine COMMIT
+2025-05-31 17:23:21,998 - INFO - COMMIT
+2025-05-31 17:23:21,998 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x1040d56c0>)
+2025-05-31 17:23:21,998 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x1040d56c0>) completed
+2025-05-31 17:23:21,998 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1040d56c0>)
+2025-05-31 17:23:21,998 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1040d56c0>) completed
+2025-05-31 17:23:21,998 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x1040d56c0>)
+2025-05-31 17:23:21,998 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x1040d56c0>) completed
+INFO:     Application startup complete.
+INFO:     127.0.0.1:49363 - "GET /api/api/properties HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:49364 - "GET /api/api/properties HTTP/1.1" 404 Not Found
+WARNING:  WatchFiles detected changes in 'backend/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [90147]
+INFO:     Started server process [92972]
+INFO:     Waiting for application startup.
+2025-05-31 17:30:50,010 - DEBUG - executing <function connect.<locals>.connector at 0x120bfc540>
+2025-05-31 17:30:50,013 - DEBUG - operation <function connect.<locals>.connector at 0x120bfc540> completed
+2025-05-31 17:30:50,014 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1210796c0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x10781fa60>, deterministic=True)
+2025-05-31 17:30:50,014 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1210796c0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x10781fa60>, deterministic=True) completed
+2025-05-31 17:30:50,015 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1210796c0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-05-31 17:30:50,015 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1210796c0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-05-31 17:30:50,015 - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1210796c0>)
+2025-05-31 17:30:50,016 - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1210796c0>) completed
+2025-05-31 17:30:50,016 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1210921c0>, 'PRAGMA read_uncommitted', [])
+2025-05-31 17:30:50,016 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1210921c0>, 'PRAGMA read_uncommitted', []) completed
+2025-05-31 17:30:50,016 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1210921c0>)
+2025-05-31 17:30:50,016 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1210921c0>) completed
+2025-05-31 17:30:50,016 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x1210921c0>)
+2025-05-31 17:30:50,016 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x1210921c0>) completed
+2025-05-31 17:30:50,016 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1210796c0>)
+2025-05-31 17:30:50,016 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1210796c0>) completed
+2025-05-31 17:30:50,017 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-05-31 17:30:50,017 - INFO - BEGIN (implicit)
+2025-05-31 17:30:50,017 INFO sqlalchemy.engine.Engine COMMIT
+2025-05-31 17:30:50,017 - INFO - COMMIT
+2025-05-31 17:30:50,017 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x1210796c0>)
+2025-05-31 17:30:50,017 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x1210796c0>) completed
+2025-05-31 17:30:50,018 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1210796c0>)
+2025-05-31 17:30:50,018 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1210796c0>) completed
+2025-05-31 17:30:50,018 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x1210796c0>)
+2025-05-31 17:30:50,018 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x1210796c0>) completed
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'backend/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [92972]
+INFO:     Started server process [93006]
+INFO:     Waiting for application startup.
+2025-05-31 17:30:54,321 - DEBUG - executing <function connect.<locals>.connector at 0x105574540>
+2025-05-31 17:30:54,322 - DEBUG - operation <function connect.<locals>.connector at 0x105574540> completed
+2025-05-31 17:30:54,323 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x105bd16c0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x10431fa60>, deterministic=True)
+2025-05-31 17:30:54,323 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x105bd16c0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x10431fa60>, deterministic=True) completed
+2025-05-31 17:30:54,324 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x105bd16c0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-05-31 17:30:54,324 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x105bd16c0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-05-31 17:30:54,324 - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x105bd16c0>)
+2025-05-31 17:30:54,324 - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x105bd16c0>) completed
+2025-05-31 17:30:54,324 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x105bea1c0>, 'PRAGMA read_uncommitted', [])
+2025-05-31 17:30:54,324 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x105bea1c0>, 'PRAGMA read_uncommitted', []) completed
+2025-05-31 17:30:54,325 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x105bea1c0>)
+2025-05-31 17:30:54,325 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x105bea1c0>) completed
+2025-05-31 17:30:54,325 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x105bea1c0>)
+2025-05-31 17:30:54,325 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x105bea1c0>) completed
+2025-05-31 17:30:54,325 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x105bd16c0>)
+2025-05-31 17:30:54,325 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x105bd16c0>) completed
+2025-05-31 17:30:54,325 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-05-31 17:30:54,325 - INFO - BEGIN (implicit)
+2025-05-31 17:30:54,326 INFO sqlalchemy.engine.Engine COMMIT
+2025-05-31 17:30:54,326 - INFO - COMMIT
+2025-05-31 17:30:54,326 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x105bd16c0>)
+2025-05-31 17:30:54,326 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x105bd16c0>) completed
+2025-05-31 17:30:54,326 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x105bd16c0>)
+2025-05-31 17:30:54,326 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x105bd16c0>) completed
+2025-05-31 17:30:54,326 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x105bd16c0>)
+2025-05-31 17:30:54,326 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x105bd16c0>) completed
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'backend/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [93006]
+INFO:     Started server process [93131]
+INFO:     Waiting for application startup.
+2025-05-31 17:31:14,650 - DEBUG - executing <function connect.<locals>.connector at 0x107f74540>
+2025-05-31 17:31:14,653 - DEBUG - operation <function connect.<locals>.connector at 0x107f74540> completed
+2025-05-31 17:31:14,653 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1103d56c0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x10601fa60>, deterministic=True)
+2025-05-31 17:31:14,654 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1103d56c0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x10601fa60>, deterministic=True) completed
+2025-05-31 17:31:14,654 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1103d56c0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-05-31 17:31:14,654 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1103d56c0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-05-31 17:31:14,655 - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1103d56c0>)
+2025-05-31 17:31:14,655 - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1103d56c0>) completed
+2025-05-31 17:31:14,655 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1103ee140>, 'PRAGMA read_uncommitted', [])
+2025-05-31 17:31:14,655 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1103ee140>, 'PRAGMA read_uncommitted', []) completed
+2025-05-31 17:31:14,655 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1103ee140>)
+2025-05-31 17:31:14,655 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1103ee140>) completed
+2025-05-31 17:31:14,655 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x1103ee140>)
+2025-05-31 17:31:14,655 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x1103ee140>) completed
+2025-05-31 17:31:14,655 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1103d56c0>)
+2025-05-31 17:31:14,655 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1103d56c0>) completed
+2025-05-31 17:31:14,658 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-05-31 17:31:14,658 - INFO - BEGIN (implicit)
+2025-05-31 17:31:14,659 INFO sqlalchemy.engine.Engine COMMIT
+2025-05-31 17:31:14,659 - INFO - COMMIT
+2025-05-31 17:31:14,659 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x1103d56c0>)
+2025-05-31 17:31:14,659 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x1103d56c0>) completed
+2025-05-31 17:31:14,659 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1103d56c0>)
+2025-05-31 17:31:14,660 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1103d56c0>) completed
+2025-05-31 17:31:14,660 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x1103d56c0>)
+2025-05-31 17:31:14,660 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x1103d56c0>) completed
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'backend/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [93131]
+INFO:     Started server process [93164]
+INFO:     Waiting for application startup.
+2025-05-31 17:31:20,979 - DEBUG - executing <function connect.<locals>.connector at 0x110774540>
+2025-05-31 17:31:20,981 - DEBUG - operation <function connect.<locals>.connector at 0x110774540> completed
+2025-05-31 17:31:20,982 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x110bd55d0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x10741fa60>, deterministic=True)
+2025-05-31 17:31:20,983 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x110bd55d0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x10741fa60>, deterministic=True) completed
+2025-05-31 17:31:20,986 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x110bd55d0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-05-31 17:31:20,986 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x110bd55d0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-05-31 17:31:20,990 - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x110bd55d0>)
+2025-05-31 17:31:20,990 - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x110bd55d0>) completed
+2025-05-31 17:31:20,990 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x110bedf40>, 'PRAGMA read_uncommitted', [])
+2025-05-31 17:31:20,991 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x110bedf40>, 'PRAGMA read_uncommitted', []) completed
+2025-05-31 17:31:20,991 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x110bedf40>)
+2025-05-31 17:31:20,991 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x110bedf40>) completed
+2025-05-31 17:31:20,991 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x110bedf40>)
+2025-05-31 17:31:20,991 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x110bedf40>) completed
+2025-05-31 17:31:20,991 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x110bd55d0>)
+2025-05-31 17:31:20,991 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x110bd55d0>) completed
+2025-05-31 17:31:20,991 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-05-31 17:31:20,991 - INFO - BEGIN (implicit)
+2025-05-31 17:31:20,992 INFO sqlalchemy.engine.Engine COMMIT
+2025-05-31 17:31:20,992 - INFO - COMMIT
+2025-05-31 17:31:20,992 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x110bd55d0>)
+2025-05-31 17:31:20,992 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x110bd55d0>) completed
+2025-05-31 17:31:20,992 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x110bd55d0>)
+2025-05-31 17:31:20,992 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x110bd55d0>) completed
+2025-05-31 17:31:20,992 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x110bd55d0>)
+2025-05-31 17:31:20,992 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x110bd55d0>) completed
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'backend/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [93164]
+INFO:     Started server process [93202]
+INFO:     Waiting for application startup.
+2025-05-31 17:31:26,329 - DEBUG - executing <function connect.<locals>.connector at 0x106174540>
+2025-05-31 17:31:26,330 - DEBUG - operation <function connect.<locals>.connector at 0x106174540> completed
+2025-05-31 17:31:26,331 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1066d55d0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x104f1fa60>, deterministic=True)
+2025-05-31 17:31:26,331 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1066d55d0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x104f1fa60>, deterministic=True) completed
+2025-05-31 17:31:26,331 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1066d55d0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-05-31 17:31:26,332 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1066d55d0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-05-31 17:31:26,332 - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1066d55d0>)
+2025-05-31 17:31:26,332 - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1066d55d0>) completed
+2025-05-31 17:31:26,332 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1066edd40>, 'PRAGMA read_uncommitted', [])
+2025-05-31 17:31:26,332 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1066edd40>, 'PRAGMA read_uncommitted', []) completed
+2025-05-31 17:31:26,334 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1066edd40>)
+2025-05-31 17:31:26,334 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1066edd40>) completed
+2025-05-31 17:31:26,334 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x1066edd40>)
+2025-05-31 17:31:26,334 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x1066edd40>) completed
+2025-05-31 17:31:26,334 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1066d55d0>)
+2025-05-31 17:31:26,334 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1066d55d0>) completed
+2025-05-31 17:31:26,335 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-05-31 17:31:26,335 - INFO - BEGIN (implicit)
+2025-05-31 17:31:26,335 INFO sqlalchemy.engine.Engine COMMIT
+2025-05-31 17:31:26,335 - INFO - COMMIT
+2025-05-31 17:31:26,335 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x1066d55d0>)
+2025-05-31 17:31:26,335 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x1066d55d0>) completed
+2025-05-31 17:31:26,335 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1066d55d0>)
+2025-05-31 17:31:26,336 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1066d55d0>) completed
+2025-05-31 17:31:26,336 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x1066d55d0>)
+2025-05-31 17:31:26,336 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x1066d55d0>) completed
+INFO:     Application startup complete.
+2025-05-31 17:31:53,706 - DEBUG - executing <function connect.<locals>.connector at 0x106714e00>
+2025-05-31 17:31:53,707 - DEBUG - operation <function connect.<locals>.connector at 0x106714e00> completed
+2025-05-31 17:31:53,708 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x106706020>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x104f1fa60>, deterministic=True)
+2025-05-31 17:31:53,708 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x106706020>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x104f1fa60>, deterministic=True) completed
+2025-05-31 17:31:53,708 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x106706020>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-05-31 17:31:53,708 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x106706020>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-05-31 17:31:53,708 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-05-31 17:31:53,708 - INFO - BEGIN (implicit)
+2025-05-31 17:31:53,740 INFO sqlalchemy.engine.Engine SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, count(meters.id) AS meter_count 
+FROM properties LEFT OUTER JOIN meters ON properties.id = meters.property_id GROUP BY properties.id
+2025-05-31 17:31:53,740 - INFO - SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, count(meters.id) AS meter_count 
+FROM properties LEFT OUTER JOIN meters ON properties.id = meters.property_id GROUP BY properties.id
+2025-05-31 17:31:53,740 INFO sqlalchemy.engine.Engine [generated in 0.00033s] ()
+2025-05-31 17:31:53,740 - INFO - [generated in 0.00033s] ()
+2025-05-31 17:31:53,740 - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x106706020>)
+2025-05-31 17:31:53,740 - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x106706020>) completed
+2025-05-31 17:31:53,740 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x10672c640>, 'SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, count(meters.id) AS meter_count \nFROM properties LEFT OUTER JOIN meters ON properties.id = meters.property_id GROUP BY properties.id', ())
+2025-05-31 17:31:53,742 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x10672c640>, 'SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, count(meters.id) AS meter_count \nFROM properties LEFT OUTER JOIN meters ON properties.id = meters.property_id GROUP BY properties.id', ()) completed
+2025-05-31 17:31:53,742 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x10672c640>)
+2025-05-31 17:31:53,742 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x10672c640>) completed
+2025-05-31 17:31:53,742 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x10672c640>)
+2025-05-31 17:31:53,742 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x10672c640>) completed
+2025-05-31 17:31:53,744 INFO sqlalchemy.engine.Engine ROLLBACK
+2025-05-31 17:31:53,744 - INFO - ROLLBACK
+2025-05-31 17:31:53,744 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x106706020>)
+2025-05-31 17:31:53,744 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x106706020>) completed
+2025-05-31 17:31:53,744 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x106706020>)
+2025-05-31 17:31:53,744 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x106706020>) completed
+2025-05-31 17:31:53,744 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x106706020>)
+2025-05-31 17:31:53,745 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x106706020>) completed
+INFO:     127.0.0.1:49729 - "GET /api/properties HTTP/1.1" 200 OK
+2025-05-31 17:32:24,422 - DEBUG - executing <function connect.<locals>.connector at 0x106776520>
+2025-05-31 17:32:24,428 - DEBUG - operation <function connect.<locals>.connector at 0x106776520> completed
+2025-05-31 17:32:24,429 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x106784400>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x104f1fa60>, deterministic=True)
+2025-05-31 17:32:24,429 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x106784400>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x104f1fa60>, deterministic=True) completed
+2025-05-31 17:32:24,429 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x106784400>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-05-31 17:32:24,429 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x106784400>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-05-31 17:32:24,429 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-05-31 17:32:24,429 - INFO - BEGIN (implicit)
+2025-05-31 17:32:24,444 INFO sqlalchemy.engine.Engine SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, users_1.id AS id_1, users_1.google_id, users_1.email, users_1.name AS name_1, users_1.password_hash, users_1.is_active, users_1.meter_number, users_1.role, users_1.created_at AS created_at_1, users_1.updated_at AS updated_at_1, users_2.id AS id_2, users_2.google_id AS google_id_1, users_2.email AS email_1, users_2.name AS name_2, users_2.password_hash AS password_hash_1, users_2.is_active AS is_active_1, users_2.meter_number AS meter_number_1, users_2.role AS role_1, users_2.created_at AS created_at_2, users_2.updated_at AS updated_at_2, vending_transactions_1.id AS id_3, vending_transactions_1.meter_id, vending_transactions_1.initiated_by_user_id, vending_transactions_1.transaction_date, vending_transactions_1.amount_paid_currency, vending_transactions_1.kwh_vended, vending_transactions_1.token_from_vendor, vending_transactions_1.token_sequence_for_meter_in_month, vending_transactions_1.receipt_reference, vending_transactions_1.tariff_details_snapshot, vending_transactions_1.raw_vend_data_from_cli, vending_transactions_1.created_at AS created_at_3, vending_transactions_1.updated_at AS updated_at_3, meters_1.id AS id_4, meters_1.meter_number AS meter_number_2, meters_1.property_id, meters_1.assigned_user_id, meters_1.meter_type, meters_1.status, meters_1.config_user_name_hint, meters_1.current_monthly_purchase_kwh, meters_1.last_purchase_date, meters_1.last_token_sequence_month, meters_1.last_token_number_in_month, meters_1.created_at AS created_at_4, meters_1.updated_at AS updated_at_4 
+FROM properties LEFT OUTER JOIN meters AS meters_1 ON properties.id = meters_1.property_id LEFT OUTER JOIN users AS users_1 ON users_1.id = meters_1.assigned_user_id LEFT OUTER JOIN vending_transactions AS vending_transactions_1 ON meters_1.id = vending_transactions_1.meter_id LEFT OUTER JOIN users AS users_2 ON users_2.id = vending_transactions_1.initiated_by_user_id 
+WHERE properties.config_key = ?
+2025-05-31 17:32:24,444 - INFO - SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, users_1.id AS id_1, users_1.google_id, users_1.email, users_1.name AS name_1, users_1.password_hash, users_1.is_active, users_1.meter_number, users_1.role, users_1.created_at AS created_at_1, users_1.updated_at AS updated_at_1, users_2.id AS id_2, users_2.google_id AS google_id_1, users_2.email AS email_1, users_2.name AS name_2, users_2.password_hash AS password_hash_1, users_2.is_active AS is_active_1, users_2.meter_number AS meter_number_1, users_2.role AS role_1, users_2.created_at AS created_at_2, users_2.updated_at AS updated_at_2, vending_transactions_1.id AS id_3, vending_transactions_1.meter_id, vending_transactions_1.initiated_by_user_id, vending_transactions_1.transaction_date, vending_transactions_1.amount_paid_currency, vending_transactions_1.kwh_vended, vending_transactions_1.token_from_vendor, vending_transactions_1.token_sequence_for_meter_in_month, vending_transactions_1.receipt_reference, vending_transactions_1.tariff_details_snapshot, vending_transactions_1.raw_vend_data_from_cli, vending_transactions_1.created_at AS created_at_3, vending_transactions_1.updated_at AS updated_at_3, meters_1.id AS id_4, meters_1.meter_number AS meter_number_2, meters_1.property_id, meters_1.assigned_user_id, meters_1.meter_type, meters_1.status, meters_1.config_user_name_hint, meters_1.current_monthly_purchase_kwh, meters_1.last_purchase_date, meters_1.last_token_sequence_month, meters_1.last_token_number_in_month, meters_1.created_at AS created_at_4, meters_1.updated_at AS updated_at_4 
+FROM properties LEFT OUTER JOIN meters AS meters_1 ON properties.id = meters_1.property_id LEFT OUTER JOIN users AS users_1 ON users_1.id = meters_1.assigned_user_id LEFT OUTER JOIN vending_transactions AS vending_transactions_1 ON meters_1.id = vending_transactions_1.meter_id LEFT OUTER JOIN users AS users_2 ON users_2.id = vending_transactions_1.initiated_by_user_id 
+WHERE properties.config_key = ?
+2025-05-31 17:32:24,444 INFO sqlalchemy.engine.Engine [generated in 0.00039s] ('11_jansen_van_rensburg_street',)
+2025-05-31 17:32:24,444 - INFO - [generated in 0.00039s] ('11_jansen_van_rensburg_street',)
+2025-05-31 17:32:24,445 - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x106784400>)
+2025-05-31 17:32:24,445 - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x106784400>) completed
+2025-05-31 17:32:24,445 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x106779bc0>, 'SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, users_1.id AS id_1, users_1.google_id, users_1.email, users_1.name AS name_1, users_1.password_hash, users_1.is_active, users_1.meter_number, users_1.role, users_1.created_at AS created_at_1, users_1.updated_at AS updated_at_1, users_2.id AS id_2, users_2.google_id AS google_id_1, users_2.email AS email_1, users_2.name AS name_2, users_2.password_hash AS password_hash_1, users_2.is_active AS is_active_1, users_2.meter_number AS meter_number_1, users_2.role AS role_1, users_2.created_at AS created_at_2, users_2.updated_at AS updated_at_2, vending_transactions_1.id AS id_3, vending_transactions_1.meter_id, vending_transactions_1.initiated_by_user_id, vending_transactions_1.transaction_date, vending_transactions_1.amount_paid_currency, vending_transactions_1.kwh_vended, vending_transactions_1.token_from_vendor, vending_transactions_1.token_sequence_for_meter_in_month, vending_transactions_1.receipt_reference, vending_transactions_1.tariff_details_snapshot, vending_transactions_1.raw_vend_data_from_cli, vending_transactions_1.created_at AS created_at_3, vending_transactions_1.updated_at AS updated_at_3, meters_1.id AS id_4, meters_1.meter_number AS meter_number_2, meters_1.property_id, meters_1.assigned_user_id, meters_1.meter_type, meters_1.status, meters_1.config_user_name_hint, meters_1.current_monthly_purchase_kwh, meters_1.last_purchase_date, meters_1.last_token_sequence_month, meters_1.last_token_number_in_month, meters_1.created_at AS created_at_4, meters_1.updated_at AS updated_at_4 \nFROM properties LEFT OUTER JOIN meters AS meters_1 ON properties.id = meters_1.property_id LEFT OUTER JOIN users AS users_1 ON users_1.id = meters_1.assigned_user_id LEFT OUTER JOIN vending_transactions AS vending_transactions_1 ON meters_1.id = vending_transactions_1.meter_id LEFT OUTER JOIN users AS users_2 ON users_2.id = vending_transactions_1.initiated_by_user_id \nWHERE properties.config_key = ?', ('11_jansen_van_rensburg_street',))
+2025-05-31 17:32:24,452 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x106779bc0>, 'SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, users_1.id AS id_1, users_1.google_id, users_1.email, users_1.name AS name_1, users_1.password_hash, users_1.is_active, users_1.meter_number, users_1.role, users_1.created_at AS created_at_1, users_1.updated_at AS updated_at_1, users_2.id AS id_2, users_2.google_id AS google_id_1, users_2.email AS email_1, users_2.name AS name_2, users_2.password_hash AS password_hash_1, users_2.is_active AS is_active_1, users_2.meter_number AS meter_number_1, users_2.role AS role_1, users_2.created_at AS created_at_2, users_2.updated_at AS updated_at_2, vending_transactions_1.id AS id_3, vending_transactions_1.meter_id, vending_transactions_1.initiated_by_user_id, vending_transactions_1.transaction_date, vending_transactions_1.amount_paid_currency, vending_transactions_1.kwh_vended, vending_transactions_1.token_from_vendor, vending_transactions_1.token_sequence_for_meter_in_month, vending_transactions_1.receipt_reference, vending_transactions_1.tariff_details_snapshot, vending_transactions_1.raw_vend_data_from_cli, vending_transactions_1.created_at AS created_at_3, vending_transactions_1.updated_at AS updated_at_3, meters_1.id AS id_4, meters_1.meter_number AS meter_number_2, meters_1.property_id, meters_1.assigned_user_id, meters_1.meter_type, meters_1.status, meters_1.config_user_name_hint, meters_1.current_monthly_purchase_kwh, meters_1.last_purchase_date, meters_1.last_token_sequence_month, meters_1.last_token_number_in_month, meters_1.created_at AS created_at_4, meters_1.updated_at AS updated_at_4 \nFROM properties LEFT OUTER JOIN meters AS meters_1 ON properties.id = meters_1.property_id LEFT OUTER JOIN users AS users_1 ON users_1.id = meters_1.assigned_user_id LEFT OUTER JOIN vending_transactions AS vending_transactions_1 ON meters_1.id = vending_transactions_1.meter_id LEFT OUTER JOIN users AS users_2 ON users_2.id = vending_transactions_1.initiated_by_user_id \nWHERE properties.config_key = ?', ('11_jansen_van_rensburg_street',)) completed
+2025-05-31 17:32:24,452 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x106779bc0>)
+2025-05-31 17:32:24,453 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x106779bc0>) completed
+2025-05-31 17:32:24,453 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x106779bc0>)
+2025-05-31 17:32:24,453 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x106779bc0>) completed
+Error fetching property details: The unique() method must be invoked on this Result, as it contains results that include joined eager loads against collections
+2025-05-31 17:32:24,456 INFO sqlalchemy.engine.Engine ROLLBACK
+2025-05-31 17:32:24,456 - INFO - ROLLBACK
+2025-05-31 17:32:24,456 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x106784400>)
+2025-05-31 17:32:24,456 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x106784400>) completed
+2025-05-31 17:32:24,457 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x106784400>)
+2025-05-31 17:32:24,457 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x106784400>) completed
+2025-05-31 17:32:24,457 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x106784400>)
+2025-05-31 17:32:24,458 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x106784400>) completed
+INFO:     127.0.0.1:49804 - "GET /api/properties/11_jansen_van_rensburg_street/meters HTTP/1.1" 500 Internal Server Error
+WARNING:  WatchFiles detected changes in 'backend/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [93202]
+INFO:     Started server process [94374]
+INFO:     Waiting for application startup.
+2025-05-31 17:33:07,540 - DEBUG - executing <function connect.<locals>.connector at 0x106174540>
+2025-05-31 17:33:07,541 - DEBUG - operation <function connect.<locals>.connector at 0x106174540> completed
+2025-05-31 17:33:07,543 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1066d55d0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x104f1fa60>, deterministic=True)
+2025-05-31 17:33:07,544 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1066d55d0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x104f1fa60>, deterministic=True) completed
+2025-05-31 17:33:07,544 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1066d55d0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-05-31 17:33:07,544 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1066d55d0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-05-31 17:33:07,544 - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1066d55d0>)
+2025-05-31 17:33:07,545 - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1066d55d0>) completed
+2025-05-31 17:33:07,545 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1066edd40>, 'PRAGMA read_uncommitted', [])
+2025-05-31 17:33:07,545 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1066edd40>, 'PRAGMA read_uncommitted', []) completed
+2025-05-31 17:33:07,545 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1066edd40>)
+2025-05-31 17:33:07,545 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1066edd40>) completed
+2025-05-31 17:33:07,545 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x1066edd40>)
+2025-05-31 17:33:07,545 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x1066edd40>) completed
+2025-05-31 17:33:07,545 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1066d55d0>)
+2025-05-31 17:33:07,545 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1066d55d0>) completed
+2025-05-31 17:33:07,547 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-05-31 17:33:07,547 - INFO - BEGIN (implicit)
+2025-05-31 17:33:07,547 INFO sqlalchemy.engine.Engine COMMIT
+2025-05-31 17:33:07,547 - INFO - COMMIT
+2025-05-31 17:33:07,547 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x1066d55d0>)
+2025-05-31 17:33:07,547 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x1066d55d0>) completed
+2025-05-31 17:33:07,548 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1066d55d0>)
+2025-05-31 17:33:07,548 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1066d55d0>) completed
+2025-05-31 17:33:07,548 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x1066d55d0>)
+2025-05-31 17:33:07,548 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x1066d55d0>) completed
+INFO:     Application startup complete.
+INFO:     127.0.0.1:49983 - "GET / HTTP/1.1" 200 OK
+2025-05-31 17:55:00,513 - DEBUG - executing <function connect.<locals>.connector at 0x106710ea0>
+2025-05-31 17:55:00,520 - DEBUG - executing <function connect.<locals>.connector at 0x106711760>
+2025-05-31 17:55:00,523 - DEBUG - operation <function connect.<locals>.connector at 0x106710ea0> completed
+2025-05-31 17:55:00,523 - DEBUG - operation <function connect.<locals>.connector at 0x106711760> completed
+2025-05-31 17:55:00,524 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1067063e0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x104f1fa60>, deterministic=True)
+2025-05-31 17:55:00,524 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1067063e0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x104f1fa60>, deterministic=True) completed
+2025-05-31 17:55:00,524 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1067074c0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x104f1fa60>, deterministic=True)
+2025-05-31 17:55:00,524 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1067074c0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x104f1fa60>, deterministic=True) completed
+2025-05-31 17:55:00,524 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1067063e0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-05-31 17:55:00,525 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1067063e0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-05-31 17:55:00,525 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1067074c0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-05-31 17:55:00,526 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-05-31 17:55:00,526 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1067074c0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-05-31 17:55:00,526 - INFO - BEGIN (implicit)
+2025-05-31 17:55:00,564 INFO sqlalchemy.engine.Engine SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, count(meters.id) AS meter_count 
+FROM properties LEFT OUTER JOIN meters ON properties.id = meters.property_id GROUP BY properties.id
+2025-05-31 17:55:00,564 - INFO - SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, count(meters.id) AS meter_count 
+FROM properties LEFT OUTER JOIN meters ON properties.id = meters.property_id GROUP BY properties.id
+2025-05-31 17:55:00,564 INFO sqlalchemy.engine.Engine [generated in 0.00027s] ()
+2025-05-31 17:55:00,564 - INFO - [generated in 0.00027s] ()
+2025-05-31 17:55:00,564 - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1067063e0>)
+2025-05-31 17:55:00,564 - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1067063e0>) completed
+2025-05-31 17:55:00,564 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-05-31 17:55:00,564 - INFO - BEGIN (implicit)
+2025-05-31 17:55:00,565 INFO sqlalchemy.engine.Engine SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, count(meters.id) AS meter_count 
+FROM properties LEFT OUTER JOIN meters ON properties.id = meters.property_id GROUP BY properties.id
+2025-05-31 17:55:00,565 - INFO - SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, count(meters.id) AS meter_count 
+FROM properties LEFT OUTER JOIN meters ON properties.id = meters.property_id GROUP BY properties.id
+2025-05-31 17:55:00,565 INFO sqlalchemy.engine.Engine [cached since 0.001092s ago] ()
+2025-05-31 17:55:00,565 - INFO - [cached since 0.001092s ago] ()
+2025-05-31 17:55:00,565 - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1067074c0>)
+2025-05-31 17:55:00,565 - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1067074c0>) completed
+2025-05-31 17:55:00,565 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x10672c0c0>, 'SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, count(meters.id) AS meter_count \nFROM properties LEFT OUTER JOIN meters ON properties.id = meters.property_id GROUP BY properties.id', ())
+2025-05-31 17:55:00,565 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1066efb40>, 'SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, count(meters.id) AS meter_count \nFROM properties LEFT OUTER JOIN meters ON properties.id = meters.property_id GROUP BY properties.id', ())
+2025-05-31 17:55:00,566 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x10672c0c0>, 'SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, count(meters.id) AS meter_count \nFROM properties LEFT OUTER JOIN meters ON properties.id = meters.property_id GROUP BY properties.id', ()) completed
+2025-05-31 17:55:00,566 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x10672c0c0>)
+2025-05-31 17:55:00,566 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x10672c0c0>) completed
+2025-05-31 17:55:00,566 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x10672c0c0>)
+2025-05-31 17:55:00,566 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x10672c0c0>) completed
+2025-05-31 17:55:00,574 INFO sqlalchemy.engine.Engine ROLLBACK
+2025-05-31 17:55:00,574 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1066efb40>, 'SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, count(meters.id) AS meter_count \nFROM properties LEFT OUTER JOIN meters ON properties.id = meters.property_id GROUP BY properties.id', ()) completed
+2025-05-31 17:55:00,574 - INFO - ROLLBACK
+2025-05-31 17:55:00,574 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1067063e0>)
+2025-05-31 17:55:00,574 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1067063e0>) completed
+2025-05-31 17:55:00,574 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1066efb40>)
+2025-05-31 17:55:00,574 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1067063e0>)
+2025-05-31 17:55:00,574 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1067063e0>) completed
+2025-05-31 17:55:00,574 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1066efb40>) completed
+2025-05-31 17:55:00,575 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x1067063e0>)
+2025-05-31 17:55:00,575 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x1066efb40>)
+2025-05-31 17:55:00,575 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x1066efb40>) completed
+2025-05-31 17:55:00,575 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x1067063e0>) completed
+2025-05-31 17:55:00,575 INFO sqlalchemy.engine.Engine ROLLBACK
+2025-05-31 17:55:00,575 - INFO - ROLLBACK
+2025-05-31 17:55:00,575 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1067074c0>)
+2025-05-31 17:55:00,576 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1067074c0>) completed
+INFO:     127.0.0.1:53460 - "GET /api/properties HTTP/1.1" 200 OK
+2025-05-31 17:55:00,579 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1067074c0>)
+2025-05-31 17:55:00,579 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1067074c0>) completed
+2025-05-31 17:55:00,579 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x1067074c0>)
+2025-05-31 17:55:00,579 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x1067074c0>) completed
+INFO:     127.0.0.1:53461 - "GET /api/properties HTTP/1.1" 200 OK
+2025-05-31 17:55:04,321 - DEBUG - executing <function connect.<locals>.connector at 0x106711440>
+2025-05-31 17:55:04,324 - DEBUG - operation <function connect.<locals>.connector at 0x106711440> completed
+2025-05-31 17:55:04,325 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1067047c0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x104f1fa60>, deterministic=True)
+2025-05-31 17:55:04,325 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1067047c0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x104f1fa60>, deterministic=True) completed
+2025-05-31 17:55:04,325 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1067047c0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-05-31 17:55:04,325 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1067047c0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-05-31 17:55:04,326 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-05-31 17:55:04,326 - INFO - BEGIN (implicit)
+2025-05-31 17:55:04,335 INFO sqlalchemy.engine.Engine SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, users_1.id AS id_1, users_1.google_id, users_1.email, users_1.name AS name_1, users_1.password_hash, users_1.is_active, users_1.meter_number, users_1.role, users_1.created_at AS created_at_1, users_1.updated_at AS updated_at_1, users_2.id AS id_2, users_2.google_id AS google_id_1, users_2.email AS email_1, users_2.name AS name_2, users_2.password_hash AS password_hash_1, users_2.is_active AS is_active_1, users_2.meter_number AS meter_number_1, users_2.role AS role_1, users_2.created_at AS created_at_2, users_2.updated_at AS updated_at_2, vending_transactions_1.id AS id_3, vending_transactions_1.meter_id, vending_transactions_1.initiated_by_user_id, vending_transactions_1.transaction_date, vending_transactions_1.amount_paid_currency, vending_transactions_1.kwh_vended, vending_transactions_1.token_from_vendor, vending_transactions_1.token_sequence_for_meter_in_month, vending_transactions_1.receipt_reference, vending_transactions_1.tariff_details_snapshot, vending_transactions_1.raw_vend_data_from_cli, vending_transactions_1.created_at AS created_at_3, vending_transactions_1.updated_at AS updated_at_3, meters_1.id AS id_4, meters_1.meter_number AS meter_number_2, meters_1.property_id, meters_1.assigned_user_id, meters_1.meter_type, meters_1.status, meters_1.config_user_name_hint, meters_1.current_monthly_purchase_kwh, meters_1.last_purchase_date, meters_1.last_token_sequence_month, meters_1.last_token_number_in_month, meters_1.created_at AS created_at_4, meters_1.updated_at AS updated_at_4 
+FROM properties LEFT OUTER JOIN meters AS meters_1 ON properties.id = meters_1.property_id LEFT OUTER JOIN users AS users_1 ON users_1.id = meters_1.assigned_user_id LEFT OUTER JOIN vending_transactions AS vending_transactions_1 ON meters_1.id = vending_transactions_1.meter_id LEFT OUTER JOIN users AS users_2 ON users_2.id = vending_transactions_1.initiated_by_user_id 
+WHERE properties.config_key = ?
+2025-05-31 17:55:04,335 - INFO - SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, users_1.id AS id_1, users_1.google_id, users_1.email, users_1.name AS name_1, users_1.password_hash, users_1.is_active, users_1.meter_number, users_1.role, users_1.created_at AS created_at_1, users_1.updated_at AS updated_at_1, users_2.id AS id_2, users_2.google_id AS google_id_1, users_2.email AS email_1, users_2.name AS name_2, users_2.password_hash AS password_hash_1, users_2.is_active AS is_active_1, users_2.meter_number AS meter_number_1, users_2.role AS role_1, users_2.created_at AS created_at_2, users_2.updated_at AS updated_at_2, vending_transactions_1.id AS id_3, vending_transactions_1.meter_id, vending_transactions_1.initiated_by_user_id, vending_transactions_1.transaction_date, vending_transactions_1.amount_paid_currency, vending_transactions_1.kwh_vended, vending_transactions_1.token_from_vendor, vending_transactions_1.token_sequence_for_meter_in_month, vending_transactions_1.receipt_reference, vending_transactions_1.tariff_details_snapshot, vending_transactions_1.raw_vend_data_from_cli, vending_transactions_1.created_at AS created_at_3, vending_transactions_1.updated_at AS updated_at_3, meters_1.id AS id_4, meters_1.meter_number AS meter_number_2, meters_1.property_id, meters_1.assigned_user_id, meters_1.meter_type, meters_1.status, meters_1.config_user_name_hint, meters_1.current_monthly_purchase_kwh, meters_1.last_purchase_date, meters_1.last_token_sequence_month, meters_1.last_token_number_in_month, meters_1.created_at AS created_at_4, meters_1.updated_at AS updated_at_4 
+FROM properties LEFT OUTER JOIN meters AS meters_1 ON properties.id = meters_1.property_id LEFT OUTER JOIN users AS users_1 ON users_1.id = meters_1.assigned_user_id LEFT OUTER JOIN vending_transactions AS vending_transactions_1 ON meters_1.id = vending_transactions_1.meter_id LEFT OUTER JOIN users AS users_2 ON users_2.id = vending_transactions_1.initiated_by_user_id 
+WHERE properties.config_key = ?
+2025-05-31 17:55:04,335 INFO sqlalchemy.engine.Engine [generated in 0.00029s] ('11_jansen_van_rensburg_street',)
+2025-05-31 17:55:04,335 - INFO - [generated in 0.00029s] ('11_jansen_van_rensburg_street',)
+2025-05-31 17:55:04,335 - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1067047c0>)
+2025-05-31 17:55:04,335 - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1067047c0>) completed
+2025-05-31 17:55:04,336 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1066ef0c0>, 'SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, users_1.id AS id_1, users_1.google_id, users_1.email, users_1.name AS name_1, users_1.password_hash, users_1.is_active, users_1.meter_number, users_1.role, users_1.created_at AS created_at_1, users_1.updated_at AS updated_at_1, users_2.id AS id_2, users_2.google_id AS google_id_1, users_2.email AS email_1, users_2.name AS name_2, users_2.password_hash AS password_hash_1, users_2.is_active AS is_active_1, users_2.meter_number AS meter_number_1, users_2.role AS role_1, users_2.created_at AS created_at_2, users_2.updated_at AS updated_at_2, vending_transactions_1.id AS id_3, vending_transactions_1.meter_id, vending_transactions_1.initiated_by_user_id, vending_transactions_1.transaction_date, vending_transactions_1.amount_paid_currency, vending_transactions_1.kwh_vended, vending_transactions_1.token_from_vendor, vending_transactions_1.token_sequence_for_meter_in_month, vending_transactions_1.receipt_reference, vending_transactions_1.tariff_details_snapshot, vending_transactions_1.raw_vend_data_from_cli, vending_transactions_1.created_at AS created_at_3, vending_transactions_1.updated_at AS updated_at_3, meters_1.id AS id_4, meters_1.meter_number AS meter_number_2, meters_1.property_id, meters_1.assigned_user_id, meters_1.meter_type, meters_1.status, meters_1.config_user_name_hint, meters_1.current_monthly_purchase_kwh, meters_1.last_purchase_date, meters_1.last_token_sequence_month, meters_1.last_token_number_in_month, meters_1.created_at AS created_at_4, meters_1.updated_at AS updated_at_4 \nFROM properties LEFT OUTER JOIN meters AS meters_1 ON properties.id = meters_1.property_id LEFT OUTER JOIN users AS users_1 ON users_1.id = meters_1.assigned_user_id LEFT OUTER JOIN vending_transactions AS vending_transactions_1 ON meters_1.id = vending_transactions_1.meter_id LEFT OUTER JOIN users AS users_2 ON users_2.id = vending_transactions_1.initiated_by_user_id \nWHERE properties.config_key = ?', ('11_jansen_van_rensburg_street',))
+2025-05-31 17:55:04,337 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1066ef0c0>, 'SELECT properties.id, properties.name, properties.config_key, properties.address, properties.pricing_model, properties.tier1_rate, properties.tier2_rate, properties.tier1_limit_kwh, properties.flat_rate_kwh, properties.vat_rate, properties.vending_fee, properties.receipt_dir_template, properties.created_at, properties.updated_at, users_1.id AS id_1, users_1.google_id, users_1.email, users_1.name AS name_1, users_1.password_hash, users_1.is_active, users_1.meter_number, users_1.role, users_1.created_at AS created_at_1, users_1.updated_at AS updated_at_1, users_2.id AS id_2, users_2.google_id AS google_id_1, users_2.email AS email_1, users_2.name AS name_2, users_2.password_hash AS password_hash_1, users_2.is_active AS is_active_1, users_2.meter_number AS meter_number_1, users_2.role AS role_1, users_2.created_at AS created_at_2, users_2.updated_at AS updated_at_2, vending_transactions_1.id AS id_3, vending_transactions_1.meter_id, vending_transactions_1.initiated_by_user_id, vending_transactions_1.transaction_date, vending_transactions_1.amount_paid_currency, vending_transactions_1.kwh_vended, vending_transactions_1.token_from_vendor, vending_transactions_1.token_sequence_for_meter_in_month, vending_transactions_1.receipt_reference, vending_transactions_1.tariff_details_snapshot, vending_transactions_1.raw_vend_data_from_cli, vending_transactions_1.created_at AS created_at_3, vending_transactions_1.updated_at AS updated_at_3, meters_1.id AS id_4, meters_1.meter_number AS meter_number_2, meters_1.property_id, meters_1.assigned_user_id, meters_1.meter_type, meters_1.status, meters_1.config_user_name_hint, meters_1.current_monthly_purchase_kwh, meters_1.last_purchase_date, meters_1.last_token_sequence_month, meters_1.last_token_number_in_month, meters_1.created_at AS created_at_4, meters_1.updated_at AS updated_at_4 \nFROM properties LEFT OUTER JOIN meters AS meters_1 ON properties.id = meters_1.property_id LEFT OUTER JOIN users AS users_1 ON users_1.id = meters_1.assigned_user_id LEFT OUTER JOIN vending_transactions AS vending_transactions_1 ON meters_1.id = vending_transactions_1.meter_id LEFT OUTER JOIN users AS users_2 ON users_2.id = vending_transactions_1.initiated_by_user_id \nWHERE properties.config_key = ?', ('11_jansen_van_rensburg_street',)) completed
+2025-05-31 17:55:04,337 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1066ef0c0>)
+2025-05-31 17:55:04,337 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1066ef0c0>) completed
+2025-05-31 17:55:04,337 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x1066ef0c0>)
+2025-05-31 17:55:04,337 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x1066ef0c0>) completed
+2025-05-31 17:55:04,344 INFO sqlalchemy.engine.Engine SELECT sum(vending_transactions.kwh_vended) AS sum_1 
+FROM vending_transactions 
+WHERE vending_transactions.meter_id = ? AND vending_transactions.transaction_date >= ?
+2025-05-31 17:55:04,344 - INFO - SELECT sum(vending_transactions.kwh_vended) AS sum_1 
+FROM vending_transactions 
+WHERE vending_transactions.meter_id = ? AND vending_transactions.transaction_date >= ?
+2025-05-31 17:55:04,344 INFO sqlalchemy.engine.Engine [generated in 0.00018s] (1, '2025-05-01 00:00:00.000000')
+2025-05-31 17:55:04,344 - INFO - [generated in 0.00018s] (1, '2025-05-01 00:00:00.000000')
+2025-05-31 17:55:04,344 - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1067047c0>)
+2025-05-31 17:55:04,344 - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1067047c0>) completed
+2025-05-31 17:55:04,344 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1066ef0c0>, 'SELECT sum(vending_transactions.kwh_vended) AS sum_1 \nFROM vending_transactions \nWHERE vending_transactions.meter_id = ? AND vending_transactions.transaction_date >= ?', (1, '2025-05-01 00:00:00.000000'))
+2025-05-31 17:55:04,345 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1066ef0c0>, 'SELECT sum(vending_transactions.kwh_vended) AS sum_1 \nFROM vending_transactions \nWHERE vending_transactions.meter_id = ? AND vending_transactions.transaction_date >= ?', (1, '2025-05-01 00:00:00.000000')) completed
+2025-05-31 17:55:04,345 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1066ef0c0>)
+2025-05-31 17:55:04,345 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1066ef0c0>) completed
+2025-05-31 17:55:04,345 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x1066ef0c0>)
+2025-05-31 17:55:04,345 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x1066ef0c0>) completed
+2025-05-31 17:55:04,346 INFO sqlalchemy.engine.Engine SELECT sum(vending_transactions.kwh_vended) AS sum_1 
+FROM vending_transactions 
+WHERE vending_transactions.meter_id = ? AND vending_transactions.transaction_date >= ?
+2025-05-31 17:55:04,346 - INFO - SELECT sum(vending_transactions.kwh_vended) AS sum_1 
+FROM vending_transactions 
+WHERE vending_transactions.meter_id = ? AND vending_transactions.transaction_date >= ?
+2025-05-31 17:55:04,346 INFO sqlalchemy.engine.Engine [cached since 0.001882s ago] (2, '2025-05-01 00:00:00.000000')
+2025-05-31 17:55:04,346 - INFO - [cached since 0.001882s ago] (2, '2025-05-01 00:00:00.000000')
+2025-05-31 17:55:04,346 - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1067047c0>)
+2025-05-31 17:55:04,346 - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1067047c0>) completed
+2025-05-31 17:55:04,346 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1066ef0c0>, 'SELECT sum(vending_transactions.kwh_vended) AS sum_1 \nFROM vending_transactions \nWHERE vending_transactions.meter_id = ? AND vending_transactions.transaction_date >= ?', (2, '2025-05-01 00:00:00.000000'))
+2025-05-31 17:55:04,346 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1066ef0c0>, 'SELECT sum(vending_transactions.kwh_vended) AS sum_1 \nFROM vending_transactions \nWHERE vending_transactions.meter_id = ? AND vending_transactions.transaction_date >= ?', (2, '2025-05-01 00:00:00.000000')) completed
+2025-05-31 17:55:04,346 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1066ef0c0>)
+2025-05-31 17:55:04,346 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1066ef0c0>) completed
+2025-05-31 17:55:04,347 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x1066ef0c0>)
+2025-05-31 17:55:04,347 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x1066ef0c0>) completed
+2025-05-31 17:55:04,347 INFO sqlalchemy.engine.Engine ROLLBACK
+2025-05-31 17:55:04,347 - INFO - ROLLBACK
+2025-05-31 17:55:04,347 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1067047c0>)
+2025-05-31 17:55:04,347 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1067047c0>) completed
+2025-05-31 17:55:04,347 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1067047c0>)
+2025-05-31 17:55:04,348 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1067047c0>) completed
+2025-05-31 17:55:04,348 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x1067047c0>)
+2025-05-31 17:55:04,348 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x1067047c0>) completed
+INFO:     127.0.0.1:53460 - "GET /api/properties/11_jansen_van_rensburg_street/meters HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53725 - "OPTIONS /api/token/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53725 - "POST /api/token/generate HTTP/1.1" 401 Unauthorized
+WARNING:  WatchFiles detected changes in 'backend/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [94374]
+INFO:     Started server process [4871]
+INFO:     Waiting for application startup.
+2025-05-31 17:58:14,801 - DEBUG - executing <function connect.<locals>.connector at 0x109774540>
+2025-05-31 17:58:14,803 - DEBUG - operation <function connect.<locals>.connector at 0x109774540> completed
+2025-05-31 17:58:14,809 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x109bd55d0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x10841fa60>, deterministic=True)
+2025-05-31 17:58:14,812 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x109bd55d0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x10841fa60>, deterministic=True) completed
+2025-05-31 17:58:14,813 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x109bd55d0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-05-31 17:58:14,813 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x109bd55d0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-05-31 17:58:14,814 - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x109bd55d0>)
+2025-05-31 17:58:14,815 - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x109bd55d0>) completed
+2025-05-31 17:58:14,815 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x109bedbc0>, 'PRAGMA read_uncommitted', [])
+2025-05-31 17:58:14,815 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x109bedbc0>, 'PRAGMA read_uncommitted', []) completed
+2025-05-31 17:58:14,819 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x109bedbc0>)
+2025-05-31 17:58:14,819 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x109bedbc0>) completed
+2025-05-31 17:58:14,821 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x109bedbc0>)
+2025-05-31 17:58:14,821 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x109bedbc0>) completed
+2025-05-31 17:58:14,831 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x109bd55d0>)
+2025-05-31 17:58:14,831 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x109bd55d0>) completed
+2025-05-31 17:58:14,832 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-05-31 17:58:14,832 - INFO - BEGIN (implicit)
+2025-05-31 17:58:14,832 INFO sqlalchemy.engine.Engine COMMIT
+2025-05-31 17:58:14,832 - INFO - COMMIT
+2025-05-31 17:58:14,832 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x109bd55d0>)
+2025-05-31 17:58:14,832 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x109bd55d0>) completed
+2025-05-31 17:58:14,833 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x109bd55d0>)
+2025-05-31 17:58:14,833 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x109bd55d0>) completed
+2025-05-31 17:58:14,834 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x109bd55d0>)
+2025-05-31 17:58:14,834 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x109bd55d0>) completed
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'backend/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4871]
+INFO:     Started server process [4941]
+INFO:     Waiting for application startup.
+2025-05-31 17:58:21,848 - DEBUG - executing <function connect.<locals>.connector at 0x106c74540>
+2025-05-31 17:58:21,848 - DEBUG - operation <function connect.<locals>.connector at 0x106c74540> completed
+2025-05-31 17:58:21,849 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1073d55d0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x10581fa60>, deterministic=True)
+2025-05-31 17:58:21,850 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1073d55d0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x10581fa60>, deterministic=True) completed
+2025-05-31 17:58:21,850 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1073d55d0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-05-31 17:58:21,850 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1073d55d0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-05-31 17:58:21,850 - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1073d55d0>)
+2025-05-31 17:58:21,851 - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1073d55d0>) completed
+2025-05-31 17:58:21,851 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1073edbc0>, 'PRAGMA read_uncommitted', [])
+2025-05-31 17:58:21,851 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1073edbc0>, 'PRAGMA read_uncommitted', []) completed
+2025-05-31 17:58:21,851 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1073edbc0>)
+2025-05-31 17:58:21,851 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1073edbc0>) completed
+2025-05-31 17:58:21,851 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x1073edbc0>)
+2025-05-31 17:58:21,851 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x1073edbc0>) completed
+2025-05-31 17:58:21,851 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1073d55d0>)
+2025-05-31 17:58:21,851 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1073d55d0>) completed
+2025-05-31 17:58:21,851 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-05-31 17:58:21,851 - INFO - BEGIN (implicit)
+2025-05-31 17:58:21,852 INFO sqlalchemy.engine.Engine COMMIT
+2025-05-31 17:58:21,852 - INFO - COMMIT
+2025-05-31 17:58:21,852 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x1073d55d0>)
+2025-05-31 17:58:21,852 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x1073d55d0>) completed
+2025-05-31 17:58:21,852 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1073d55d0>)
+2025-05-31 17:58:21,852 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1073d55d0>) completed
+2025-05-31 17:58:21,852 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x1073d55d0>)
+2025-05-31 17:58:21,852 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x1073d55d0>) completed
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'backend/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4941]
+INFO:     Started server process [4996]
+INFO:     Waiting for application startup.
+2025-05-31 17:58:27,275 - DEBUG - executing <function connect.<locals>.connector at 0x105174540>
+2025-05-31 17:58:27,276 - DEBUG - operation <function connect.<locals>.connector at 0x105174540> completed
+2025-05-31 17:58:27,276 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1058d55d0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x10401fa60>, deterministic=True)
+2025-05-31 17:58:27,277 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1058d55d0>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x10401fa60>, deterministic=True) completed
+2025-05-31 17:58:27,277 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1058d55d0>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-05-31 17:58:27,277 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x1058d55d0>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-05-31 17:58:27,278 - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1058d55d0>)
+2025-05-31 17:58:27,278 - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x1058d55d0>) completed
+2025-05-31 17:58:27,278 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1058edbc0>, 'PRAGMA read_uncommitted', [])
+2025-05-31 17:58:27,278 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1058edbc0>, 'PRAGMA read_uncommitted', []) completed
+2025-05-31 17:58:27,278 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1058edbc0>)
+2025-05-31 17:58:27,278 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1058edbc0>) completed
+2025-05-31 17:58:27,278 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x1058edbc0>)
+2025-05-31 17:58:27,278 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x1058edbc0>) completed
+2025-05-31 17:58:27,278 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1058d55d0>)
+2025-05-31 17:58:27,278 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1058d55d0>) completed
+2025-05-31 17:58:27,278 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-05-31 17:58:27,278 - INFO - BEGIN (implicit)
+2025-05-31 17:58:27,278 INFO sqlalchemy.engine.Engine COMMIT
+2025-05-31 17:58:27,278 - INFO - COMMIT
+2025-05-31 17:58:27,278 - DEBUG - executing functools.partial(<built-in method commit of sqlite3.Connection object at 0x1058d55d0>)
+2025-05-31 17:58:27,279 - DEBUG - operation functools.partial(<built-in method commit of sqlite3.Connection object at 0x1058d55d0>) completed
+2025-05-31 17:58:27,279 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1058d55d0>)
+2025-05-31 17:58:27,279 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x1058d55d0>) completed
+2025-05-31 17:58:27,279 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x1058d55d0>)
+2025-05-31 17:58:27,279 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x1058d55d0>) completed
+INFO:     Application startup complete.
+2025-05-31 17:58:39,810 - DEBUG - executing <function connect.<locals>.connector at 0x105974540>
+2025-05-31 17:58:39,812 - DEBUG - operation <function connect.<locals>.connector at 0x105974540> completed
+2025-05-31 17:58:39,812 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x10594ba60>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x10401fa60>, deterministic=True)
+2025-05-31 17:58:39,812 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x10594ba60>, 'regexp', 2, <function SQLiteDialect_pysqlite.on_connect.<locals>.regexp at 0x10401fa60>, deterministic=True) completed
+2025-05-31 17:58:39,812 - DEBUG - executing functools.partial(<built-in method create_function of sqlite3.Connection object at 0x10594ba60>, 'floor', 1, <built-in function floor>, deterministic=True)
+2025-05-31 17:58:39,812 - DEBUG - operation functools.partial(<built-in method create_function of sqlite3.Connection object at 0x10594ba60>, 'floor', 1, <built-in function floor>, deterministic=True) completed
+2025-05-31 17:58:39,812 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-05-31 17:58:39,812 - INFO - BEGIN (implicit)
+2025-05-31 17:58:39,817 INFO sqlalchemy.engine.Engine SELECT meters.id, meters.meter_number, meters.property_id, meters.assigned_user_id, meters.meter_type, meters.status, meters.config_user_name_hint, meters.current_monthly_purchase_kwh, meters.last_purchase_date, meters.last_token_sequence_month, meters.last_token_number_in_month, meters.created_at, meters.updated_at, properties_1.id AS id_1, properties_1.name, properties_1.config_key, properties_1.address, properties_1.pricing_model, properties_1.tier1_rate, properties_1.tier2_rate, properties_1.tier1_limit_kwh, properties_1.flat_rate_kwh, properties_1.vat_rate, properties_1.vending_fee, properties_1.receipt_dir_template, properties_1.created_at AS created_at_1, properties_1.updated_at AS updated_at_1 
+FROM meters LEFT OUTER JOIN properties AS properties_1 ON properties_1.id = meters.property_id 
+WHERE meters.meter_number = ?
+2025-05-31 17:58:39,817 - INFO - SELECT meters.id, meters.meter_number, meters.property_id, meters.assigned_user_id, meters.meter_type, meters.status, meters.config_user_name_hint, meters.current_monthly_purchase_kwh, meters.last_purchase_date, meters.last_token_sequence_month, meters.last_token_number_in_month, meters.created_at, meters.updated_at, properties_1.id AS id_1, properties_1.name, properties_1.config_key, properties_1.address, properties_1.pricing_model, properties_1.tier1_rate, properties_1.tier2_rate, properties_1.tier1_limit_kwh, properties_1.flat_rate_kwh, properties_1.vat_rate, properties_1.vending_fee, properties_1.receipt_dir_template, properties_1.created_at AS created_at_1, properties_1.updated_at AS updated_at_1 
+FROM meters LEFT OUTER JOIN properties AS properties_1 ON properties_1.id = meters.property_id 
+WHERE meters.meter_number = ?
+2025-05-31 17:58:39,818 INFO sqlalchemy.engine.Engine [generated in 0.00107s] ('04240523540',)
+2025-05-31 17:58:39,818 - INFO - [generated in 0.00107s] ('04240523540',)
+2025-05-31 17:58:39,818 - DEBUG - executing functools.partial(<built-in method cursor of sqlite3.Connection object at 0x10594ba60>)
+2025-05-31 17:58:39,818 - DEBUG - operation functools.partial(<built-in method cursor of sqlite3.Connection object at 0x10594ba60>) completed
+2025-05-31 17:58:39,818 - DEBUG - executing functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1058ee040>, 'SELECT meters.id, meters.meter_number, meters.property_id, meters.assigned_user_id, meters.meter_type, meters.status, meters.config_user_name_hint, meters.current_monthly_purchase_kwh, meters.last_purchase_date, meters.last_token_sequence_month, meters.last_token_number_in_month, meters.created_at, meters.updated_at, properties_1.id AS id_1, properties_1.name, properties_1.config_key, properties_1.address, properties_1.pricing_model, properties_1.tier1_rate, properties_1.tier2_rate, properties_1.tier1_limit_kwh, properties_1.flat_rate_kwh, properties_1.vat_rate, properties_1.vending_fee, properties_1.receipt_dir_template, properties_1.created_at AS created_at_1, properties_1.updated_at AS updated_at_1 \nFROM meters LEFT OUTER JOIN properties AS properties_1 ON properties_1.id = meters.property_id \nWHERE meters.meter_number = ?', ('04240523540',))
+2025-05-31 17:58:39,820 - DEBUG - operation functools.partial(<built-in method execute of sqlite3.Cursor object at 0x1058ee040>, 'SELECT meters.id, meters.meter_number, meters.property_id, meters.assigned_user_id, meters.meter_type, meters.status, meters.config_user_name_hint, meters.current_monthly_purchase_kwh, meters.last_purchase_date, meters.last_token_sequence_month, meters.last_token_number_in_month, meters.created_at, meters.updated_at, properties_1.id AS id_1, properties_1.name, properties_1.config_key, properties_1.address, properties_1.pricing_model, properties_1.tier1_rate, properties_1.tier2_rate, properties_1.tier1_limit_kwh, properties_1.flat_rate_kwh, properties_1.vat_rate, properties_1.vending_fee, properties_1.receipt_dir_template, properties_1.created_at AS created_at_1, properties_1.updated_at AS updated_at_1 \nFROM meters LEFT OUTER JOIN properties AS properties_1 ON properties_1.id = meters.property_id \nWHERE meters.meter_number = ?', ('04240523540',)) completed
+2025-05-31 17:58:39,821 - DEBUG - executing functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1058ee040>)
+2025-05-31 17:58:39,821 - DEBUG - operation functools.partial(<built-in method fetchall of sqlite3.Cursor object at 0x1058ee040>) completed
+2025-05-31 17:58:39,821 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Cursor object at 0x1058ee040>)
+2025-05-31 17:58:39,821 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Cursor object at 0x1058ee040>) completed
+2025-05-31 17:58:39,827 INFO sqlalchemy.engine.Engine ROLLBACK
+2025-05-31 17:58:39,827 - INFO - ROLLBACK
+2025-05-31 17:58:39,827 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x10594ba60>)
+2025-05-31 17:58:39,827 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x10594ba60>) completed
+2025-05-31 17:58:39,827 - DEBUG - executing functools.partial(<built-in method rollback of sqlite3.Connection object at 0x10594ba60>)
+2025-05-31 17:58:39,827 - DEBUG - operation functools.partial(<built-in method rollback of sqlite3.Connection object at 0x10594ba60>) completed
+2025-05-31 17:58:39,827 - DEBUG - executing functools.partial(<built-in method close of sqlite3.Connection object at 0x10594ba60>)
+2025-05-31 17:58:39,828 - DEBUG - operation functools.partial(<built-in method close of sqlite3.Connection object at 0x10594ba60>) completed
+INFO:     127.0.0.1:54078 - "POST /api/token/generate HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/uvicorn/protocols/http/httptools_impl.py", line 411, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/starlette/applications.py", line 112, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/starlette/routing.py", line 714, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/starlette/routing.py", line 734, in app
+    await route.handle(scope, receive, send)
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/.venv/lib/python3.11/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jacques/DevFolder/Cyber_Zapvend/backend/main.py", line 245, in generate_electricity_token
+    vend_token_str = generate_token(meter.meter_number, float(token_request.amount))
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: generate_token() missing 2 required positional arguments: 'meter_number' and 'kwh_value'
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4996]
+INFO:     Stopping reloader process [90141]

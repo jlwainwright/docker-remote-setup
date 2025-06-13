@@ -1,0 +1,170 @@
+[
+  {
+    "accountNumber": "63012703624",
+    "statementNumber": "20",
+    "periodFrom": "27 February 2024",
+    "periodTo": "27 March 2024",
+    "openingBalance": 0,
+    "closingBalance": 0,
+    "transactions": [],
+    "summary": {
+      "totalCredits": 0,
+      "totalDebits": 0,
+      "transactionCount": 0
+    }
+  },
+  {
+    "accountNumber": "63012703624",
+    "statementNumber": "21",
+    "periodFrom": "27 March 2024",
+    "periodTo": "26 April 2024",
+    "openingBalance": 0,
+    "closingBalance": 0,
+    "transactions": [],
+    "summary": {
+      "totalCredits": 0,
+      "totalDebits": 0,
+      "transactionCount": 0
+    }
+  },
+  {
+    "accountNumber": "63012703624",
+    "statementNumber": "22",
+    "periodFrom": "26 April 2024",
+    "periodTo": "27 May 2024",
+    "openingBalance": 0,
+    "closingBalance": 0,
+    "transactions": [],
+    "summary": {
+      "totalCredits": 0,
+      "totalDebits": 0,
+      "transactionCount": 0
+    }
+  },
+  {
+    "accountNumber": "63012703624",
+    "statementNumber": "23",
+    "periodFrom": "27 May 2024",
+    "periodTo": "27 June 2024",
+    "openingBalance": 0,
+    "closingBalance": 0,
+    "transactions": [],
+    "summary": {
+      "totalCredits": 0,
+      "totalDebits": 0,
+      "transactionCount": 0
+    }
+  },
+  {
+    "accountNumber": "63012703624",
+    "statementNumber": "24",
+    "periodFrom": "27 June 2024",
+    "periodTo": "27 July 2024",
+    "openingBalance": 0,
+    "closingBalance": 0,
+    "transactions": [],
+    "summary": {
+      "totalCredits": 0,
+      "totalDebits": 0,
+      "transactionCount": 0
+    }
+  },
+  {
+    "accountNumber": "63012703624",
+    "statementNumber": "25",
+    "periodFrom": "27 July 2024",
+    "periodTo": "27 August 2024",
+    "openingBalance": 0,
+    "closingBalance": 0,
+    "transactions": [],
+    "summary": {
+      "totalCredits": 0,
+      "totalDebits": 0,
+      "transactionCount": 0
+    }
+  },
+  {
+    "accountNumber": "63012703624",
+    "statementNumber": "26",
+    "periodFrom": "27 August 2024",
+    "periodTo": "27 September 2024",
+    "openingBalance": 0,
+    "closingBalance": 0,
+    "transactions": [],
+    "summary": {
+      "totalCredits": 0,
+      "totalDebits": 0,
+      "transactionCount": 0
+    }
+  },
+  {
+    "accountNumber": "63012703624",
+    "statementNumber": "27",
+    "periodFrom": "27 September 2024",
+    "periodTo": "26 October 2024",
+    "openingBalance": 0,
+    "closingBalance": 0,
+    "transactions": [],
+    "summary": {
+      "totalCredits": 0,
+      "totalDebits": 0,
+      "transactionCount": 0
+    }
+  },
+  {
+    "accountNumber": "63012703624",
+    "statementNumber": "28",
+    "periodFrom": "26 Oc",
+    "periodTo": "ber 2024 to 27 November 2024",
+    "openingBalance": 0,
+    "closingBalance": 0,
+    "transactions": [],
+    "summary": {
+      "totalCredits": 0,
+      "totalDebits": 0,
+      "transactionCount": 0
+    }
+  },
+  {
+    "accountNumber": "63012703624",
+    "statementNumber": "29",
+    "periodFrom": "27 November 2024",
+    "periodTo": "27 December 2024",
+    "openingBalance": 0,
+    "closingBalance": 0,
+    "transactions": [],
+    "summary": {
+      "totalCredits": 0,
+      "totalDebits": 0,
+      "transactionCount": 0
+    }
+  },
+  {
+    "accountNumber": "63012703624",
+    "statementNumber": "30",
+    "periodFrom": "27 December 2024",
+    "periodTo": "27 January 2025",
+    "openingBalance": 0,
+    "closingBalance": 0,
+    "transactions": [],
+    "summary": {
+      "totalCredits": 0,
+      "totalDebits": 0,
+      "transactionCount": 0
+    }
+  },
+  {
+    "accountNumber": "63012703624",
+    "statementNumber": "31",
+    "periodFrom": "27 January 2025",
+    "periodTo": "27 February 2025",
+    "openingBalance": 0,
+    "closingBalance": 0,
+    "transactions": [],
+    "summary": {
+      "totalCredits": 0,
+      "totalDebits": 0,
+      "transactionCount": 0
+    }
+  }
+]

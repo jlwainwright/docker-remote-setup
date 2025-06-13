@@ -1,0 +1,233 @@
+[
+  {
+    "name": "Anita & Eldon",
+    "meter_number": "07138134767",
+    "vends": [
+      {
+        "date": "2025-04-27T10:59:49.256499",
+        "amount": 200.0,
+        "kwh": 67.51282743721308,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": "DEMO_TOKEN_12345"
+      },
+      {
+        "date": "2025-04-27T12:34:55.007521",
+        "amount": 200.0,
+        "kwh": 67.51282743721308,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": "DEMO_TOKEN_12345"
+      },
+      {
+        "date": "2025-04-27T12:39:24.384323",
+        "amount": 200.0,
+        "kwh": 67.51282743721308,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": "DEMO_TOKEN_12345"
+      },
+      {
+        "date": "2025-04-27T12:41:37.931776",
+        "amount": 200.0,
+        "kwh": 67.51282743721308,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": "DEMO_TOKEN_12345"
+      },
+      {
+        "date": "2025-04-27T13:25:51.022143",
+        "amount": 200.0,
+        "kwh": 67.51282743721308,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": "DEMO_TOKEN_12345"
+      },
+      {
+        "date": "2025-04-27T13:28:55.880794",
+        "amount": 200.0,
+        "kwh": 67.51282743721308,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": "DEMO_TOKEN_12345"
+      },
+      {
+        "date": "2025-04-27T13:40:08.069897",
+        "amount": 200.0,
+        "kwh": 67.51282743721308,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": "DEMO_TOKEN_12345"
+      },
+      {
+        "date": "2025-04-27T13:42:56.421499",
+        "amount": 200.0,
+        "kwh": 67.51282743721308,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": "DEMO_TOKEN_12345"
+      },
+      {
+        "date": "2025-04-27T13:51:48.554570",
+        "amount": 200.0,
+        "kwh": 67.51282743721308,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": "DEMO_TOKEN_12345"
+      }
+    ],
+    "last_token_number": 1,
+    "last_token_month": "2025-04-01T00:00:00"
+  },
+  {
+    "name": "",
+    "meter_number": "07151832628",
+    "vends": [],
+    "last_token_number": 0,
+    "last_token_month": null
+  },
+  {
+    "name": "Van Passel Main House",
+    "meter_number": "07123456789",
+    "vends": [
+      {
+        "date": "2025-04-27T05:39:01.247082",
+        "amount": 200.0,
+        "kwh": 67.51282743721308,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": null
+      }
+    ],
+    "last_token_number": 1,
+    "last_token_month": "2025-04-01T00:00:00"
+  },
+  {
+    "name": "Anita & Eldon",
+    "meter_number": "07123456790",
+    "vends": [
+      {
+        "date": "2025-01-09T19:11:29.132000+00:00",
+        "amount": 100,
+        "kwh": 33.76,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": null
+      },
+      {
+        "date": "2025-01-09T19:18:09.865000+00:00",
+        "amount": 100,
+        "kwh": 33.76,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": null
+      },
+      {
+        "date": "2025-01-09T19:50:28.411000+00:00",
+        "amount": 100,
+        "kwh": 33.76,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": null
+      },
+      {
+        "date": "2025-02-05T12:05:51.112688",
+        "amount": 150.0,
+        "kwh": 50.63462057790981,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": null
+      },
+      {
+        "date": "2025-02-12T08:21:36.586236",
+        "amount": 150.0,
+        "kwh": 50.63462057790981,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": null
+      },
+      {
+        "date": "2025-02-19T20:00:07.101988",
+        "amount": 200.0,
+        "kwh": 67.51282743721308,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": null
+      },
+      {
+        "date": "2025-03-01T06:50:53.501956",
+        "amount": 200.0,
+        "kwh": 67.51282743721308,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": null
+      },
+      {
+        "date": "2025-03-09T09:20:30.656414",
+        "amount": 200.0,
+        "kwh": 67.51282743721308,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": null
+      },
+      {
+        "date": "2025-03-17T07:55:02.421437",
+        "amount": 250.0,
+        "kwh": 84.39103429651635,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": null
+      },
+      {
+        "date": "2025-03-26T08:06:14.726914",
+        "amount": 50.0,
+        "kwh": 16.87820685930327,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": null
+      },
+      {
+        "date": "2025-03-27T15:58:11.764775",
+        "amount": 100.0,
+        "kwh": 33.75641371860654,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": null
+      },
+      {
+        "date": "2025-04-01T16:10:35.547761",
+        "amount": 300.0,
+        "kwh": 101.26924115581961,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": null
+      },
+      {
+        "date": "2025-04-14T19:57:24.477583",
+        "amount": 200.0,
+        "kwh": 67.51282743721308,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": null
+      },
+      {
+        "date": "2025-04-27T10:52:11.510717",
+        "amount": 200.0,
+        "kwh": 67.51282743721308,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": null
+      },
+      {
+        "date": "2025-04-27T10:57:00.321003",
+        "amount": 200.0,
+        "kwh": 67.51282743721308,
+        "tier1_kwh": 0,
+        "tier2_kwh": 0,
+        "token": null
+      }
+    ],
+    "last_token_number": 3,
+    "last_token_month": "2025-04-01T00:00:00"
+  }
+]

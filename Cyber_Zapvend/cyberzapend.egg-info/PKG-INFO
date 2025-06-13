@@ -1,0 +1,248 @@
+Metadata-Version: 2.4
+Name: cyberzapend
+Version: 0.1.0
+Summary: CyberZapend - Electricity Vending System
+Home-page: https://github.com/yourusername/cyberzapend
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.104.1
+Requires-Dist: uvicorn[standard]>=0.27.0
+Requires-Dist: python-multipart>=0.0.9
+Requires-Dist: python-jose[cryptography]>=3.3.0
+Requires-Dist: passlib[bcrypt]>=1.7.4
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: sqlalchemy>=2.0.23
+Requires-Dist: alembic>=1.13.1
+Requires-Dist: aiosqlite>=0.19.0
+Requires-Dist: pydantic>=2.5.0
+Requires-Dist: email-validator>=2.1.0
+Requires-Dist: anyio>=3.7.1
+Requires-Dist: python-dateutil>=2.8.2
+Requires-Dist: python-multipart>=0.0.5
+Requires-Dist: httpx>=0.27.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: PyYAML>=6.0.1
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
+Requires-Dist: pytest-mock>=3.12.0; extra == "dev"
+Requires-Dist: pytest-xdist>=3.5.0; extra == "dev"
+Requires-Dist: black>=23.12.0; extra == "dev"
+Requires-Dist: isort>=5.13.0; extra == "dev"
+Requires-Dist: flake8>=7.0.0; extra == "dev"
+Requires-Dist: mypy>=1.7.0; extra == "dev"
+Requires-Dist: ipython>=8.18.0; extra == "dev"
+Requires-Dist: jupyter>=1.0.0; extra == "dev"
+Requires-Dist: sphinx>=7.2.0; extra == "dev"
+Requires-Dist: sphinx-rtd-theme>=1.3.0; extra == "dev"
+Requires-Dist: httpx>=0.25.0; extra == "dev"
+Requires-Dist: playwright>=1.40.0; extra == "dev"
+Requires-Dist: reportlab>=4.0.0; extra == "dev"
+Requires-Dist: watchfiles>=0.19.0; extra == "dev"
+Requires-Dist: pre-commit>=3.5.0; extra == "dev"
+Requires-Dist: ipdb>=0.13.13; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# CyberZapend
+
+CyberZapend is an integrated application for managing prepaid electricity vending through the CyberVendIT system. It provides both a command-line interface and a web interface for generating electricity tokens.
+
+## Features
+
+- Web interface for managing properties, tenants, and token vending
+- Command-line interface for quick token generation
+- Integration with CyberVendIT for automated token generation
+- Receipt generation for token purchases
+- Tiered pricing support based on usage
+- User authentication system
+- Token purchase history and reporting
+- Comprehensive test suite with 100% critical path coverage
+
+## Requirements
+
+- Python 3.11+
+- Node.js 22+ and npm
+- CyberVendIT account credentials
+- Playwright (for web automation)
+- SQLite or PostgreSQL database
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/CyberZapend.git
+cd CyberZapend
+```
+
+2. Create a virtual environment and install Python dependencies:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+pip install -r backend/requirements.txt
+```
+
+3. Install frontend dependencies:
+
+```bash
+cd frontend
+npm install
+cd ..
+```
+
+4. Create a `.env` file in the root directory with your CyberVendIT credentials:
+
+```
+CYBERVENDIT_USERNAME=your_username
+CYBERVENDIT_PASSWORD=your_password
+CYBERVENDIT_DEMO_MODE=false  # Set to true to run in demo mode without generating real tokens
+```
+
+## Usage
+
+### Starting the Application
+
+You can start both the backend and frontend servers with a single command:
+
+```bash
+./start_app.sh
+```
+
+This will:
+1. Start the FastAPI backend server on port 8001
+2. Start the Next.js frontend server on port 3000
+3. Log all server output to backend.log and frontend.log
+
+### Web Interface
+
+Access the web interface at http://localhost:3000
+
+1. Log in with the admin credentials:
+   - Username: admin
+   - Password: password
+
+2. Navigate to the Token Vending page from the dashboard
+3. Select a property and tenant
+4. Enter the amount to purchase
+5. Click "Generate Token"
+6. View the generated token and transaction details
+
+### Command Line Interface
+
+You can also use the command-line interface for direct token generation:
+
+```bash
+# Activate the virtual environment
+source .venv/bin/activate
+
+# Run the CLI application
+python main.py
+```
+
+### Token Generation API
+
+The application exposes a REST API for token generation:
+
+```
+POST /api/token/generate
+Authorization: Bearer <token>
+Content-Type: application/json
+
+{
+  "meter_number": "123456789",
+  "amount": 100,
+  "street_key": "jansen"
+}
+```
+
+## Configuration
+
+Property and tenant configuration is managed in the `config.yaml` file. Each property can have its own pricing model (flat or tiered) and list of tenants with meter numbers.
+
+## Development
+
+### Testing
+
+The application includes a comprehensive test suite with unit tests, integration tests, and API tests.
+
+#### Running All Tests
+
+```bash
+# Backend tests
+cd tests
+source ../.venv/bin/activate
+pip install -r requirements.txt
+pytest
+
+# Frontend tests (when implemented)
+cd frontend
+npm test
+```
+
+#### Running Specific Test Categories
+
+```bash
+# Unit tests (basic functionality, models, database)
+pytest tests/backend/test_simple.py tests/backend/test_basic_models.py tests/backend/test_database_fixtures.py
+
+# API tests (requires running application)
+pytest tests/backend/test_api_*.py
+
+# Integration tests (end-to-end workflows)
+pytest tests/integration/
+
+# Legacy integration test
+python test_integration.py
+```
+
+#### Test Coverage
+
+- ✅ **Basic Framework**: Python imports, environment setup
+- ✅ **Database Models**: Property, User, Meter model creation and validation
+- ✅ **Database Operations**: CRUD operations, relationships, queries
+- 🔄 **API Endpoints**: Authentication, properties, token generation (partial)
+- 🔄 **Business Logic**: Electricity calculations, receipt generation (partial)
+- ❌ **Frontend Components**: React component testing (planned)
+- ❌ **CyberVendIT Integration**: External service automation (complex mocking required)
+
+Current test status: **30% passing** (17/57 tests)
+
+### Running Backend Only
+
+```bash
+uvicorn backend.main:app --reload --port 8001
+```
+
+### Running Frontend Only
+
+```bash
+cd frontend
+npm run dev
+```
+
+## Troubleshooting
+
+- **Browser automation issues**: Ensure Playwright is properly installed and configured. Run `playwright install` if needed.
+- **Token generation errors**: Check the CyberVendIT credentials in your `.env` file.
+- **Connection errors**: Make sure both the backend and frontend servers are running.
+
+## License
+
+[MIT License](LICENSE)

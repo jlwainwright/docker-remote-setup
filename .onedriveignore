@@ -1,0 +1,49 @@
+# Node.js
+node_modules/
+.next/
+.nuxt/
+dist/
+build/
+coverage/
+.nyc_output/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+venv/
+env/
+.env
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# IDE and OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.tmp/
+.cache/
+
+# Misc
+*.tmp
+*.temp
+*.log
+.git/objects/

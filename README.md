@@ -6,37 +6,40 @@ Enable Docker daemon TCP access across multiple hosts with a single command.
 
 ### One-liner (from GitHub):
 ```bash
-curl -sSL https://raw.githubusercontent.com/yourusername/docker-remote-setup/main/enable-docker-remote.sh | bash
+curl -sSL https://raw.githubusercontent.com/jlwainwright/docker-remote-setup/main/enable-docker-remote.sh | bash
 ```
 
-### One-liner (simple version):
+### One-liner (quick version):
 ```bash
-bash -c "$(curl -sSL https://bit.ly/docker-remote-enable)"
+curl -sSL https://raw.githubusercontent.com/jlwainwright/docker-remote-setup/main/quick-enable.sh | bash
 ```
 
 ### Manual execution:
 ```bash
-wget https://raw.githubusercontent.com/yourusername/docker-remote-setup/main/enable-docker-remote.sh
+wget https://raw.githubusercontent.com/jlwainwright/docker-remote-setup/main/enable-docker-remote.sh
 chmod +x enable-docker-remote.sh
-sudo ./enable-docker-remote.sh
+# Run as root on Alpine, or with sudo on other systems
+./enable-docker-remote.sh
 ```
 
 ## ? What it does
 
-1. **Detects your init system** (systemd/OpenRC/SysVinit)
-2. **Backs up existing Docker configuration**
-3. **Configures Docker daemon** to listen on TCP port 2375
-4. **Handles systemd overrides** for proper configuration
-5. **Restarts Docker daemon** with new settings
-6. **Verifies the setup** is working correctly
+1. **Auto-detects OS and init system** (Alpine Linux/OpenRC, systemd, SysVinit)
+2. **Handles sudo availability** (works with or without sudo on Alpine)
+3. **Backs up existing Docker configuration**
+4. **Configures Docker daemon** to listen on TCP port 2375
+5. **Creates appropriate service overrides** (systemd) or uses native restart (OpenRC)
+6. **Restarts Docker daemon** with new settings
+7. **Verifies the setup** is working correctly
 
 ## ? Supported Systems
 
 - ? **Ubuntu/Debian** (systemd)
 - ? **CentOS/RHEL/Fedora** (systemd)  
-- ? **Alpine Linux** (OpenRC)
+- ? **Alpine Linux** (OpenRC) - ? **Fully Tested & Working**
 - ? **Amazon Linux** (systemd)
 - ? **Raspberry Pi OS** (systemd)
+- ? **Any Linux with Docker** (auto-detects init system)
 
 ## ?? Security Warning
 
@@ -73,14 +76,14 @@ docker ps  # Now uses remote host
 ```bash
 # Using SSH with key authentication
 for host in host1 host2 host3; do
-  ssh $host "curl -sSL https://raw.githubusercontent.com/yourusername/docker-remote-setup/main/enable-docker-remote.sh | bash"
+  ssh $host "curl -sSL https://raw.githubusercontent.com/jlwainwright/docker-remote-setup/main/enable-docker-remote.sh | bash"
 done
 
 # Using Ansible
-ansible all -m shell -a "curl -sSL https://raw.githubusercontent.com/yourusername/docker-remote-setup/main/enable-docker-remote.sh | bash"
+ansible all -m shell -a "curl -sSL https://raw.githubusercontent.com/jlwainwright/docker-remote-setup/main/enable-docker-remote.sh | bash"
 
 # Using parallel SSH
-parallel-ssh -h hosts.txt "curl -sSL https://raw.githubusercontent.com/yourusername/docker-remote-setup/main/enable-docker-remote.sh | bash"
+parallel-ssh -h hosts.txt "curl -sSL https://raw.githubusercontent.com/jlwainwright/docker-remote-setup/main/enable-docker-remote.sh | bash"
 ```
 
 ## ? Rollback
@@ -94,6 +97,26 @@ sudo systemctl daemon-reload
 sudo systemctl start docker
 ```
 
+## ?? Alpine Linux Notes
+
+### Features:
+- ? **Auto-detected** by checking `/etc/alpine-release`
+- ? **Works without sudo** when running as root
+- ? **Uses OpenRC** service management
+- ? **Handles permission issues** gracefully
+
+### Alpine-specific commands:
+```bash
+# Check Docker service status
+rc-service docker status
+
+# Restart Docker manually
+rc-service docker restart
+
+# View Docker logs
+tail -f /var/log/docker.log
+```
+
 ## ?? Troubleshooting
 
 ### Check if Docker is listening on TCP:
@@ -103,11 +126,11 @@ netstat -tlnp | grep :2375
 
 ### View Docker logs:
 ```bash
-# systemd
+# systemd (Ubuntu/Debian/CentOS)
 sudo journalctl -u docker -f
 
-# OpenRC
-sudo tail -f /var/log/docker.log
+# OpenRC (Alpine Linux)
+tail -f /var/log/docker.log
 ```
 
 ### Test API access:

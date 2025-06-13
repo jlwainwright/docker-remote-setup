@@ -1,0 +1,2 @@
+Error: Could not find any product elements on the page
+    at scrapeSyntech (/Users/jacques/DevFolder/syntech-scraper/index.js:76:19)

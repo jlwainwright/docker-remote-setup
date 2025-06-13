@@ -1,0 +1,3719 @@
+[
+  {
+    "date": "07 Mar",
+    "description": "Fuel Purchase Fuel 1 Retail485442*8363 04 Mar",
+    "amount": 1872.6,
+    "type": "Cr",
+    "balance": 161207.17,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "08 Mar",
+    "description": "FNB App Transfer From Loan",
+    "amount": 5000,
+    "type": "Cr",
+    "balance": 166207.17,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "08 Mar",
+    "description": "Internet Pmt To Po000736Sunlec Inv",
+    "amount": 491050,
+    "type": "Cr",
+    "balance": 165157.17,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "08 Mar",
+    "description": "FNB App Payment To New Approach TradingThys Sutherland",
+    "amount": 1035,
+    "type": "Cr",
+    "balance": 164122.17,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "08 Mar",
+    "description": "Magtape Credit ABSA Bank Deon / W inston",
+    "amount": 66300,
+    "type": "Cr",
+    "balance": 230422.17,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "09 Mar",
+    "description": "Magtape Credit Materials",
+    "amount": 1173,
+    "type": "Cr",
+    "balance": 231595.17,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "09 Mar",
+    "description": "POS Purchase Valsa Trading C 12 08 Mar",
+    "amount": 2462.4,
+    "type": "Cr",
+    "balance": 229132.77,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Mar",
+    "description": "POS Purchase Adobe Systems Softw 11 Mar",
+    "amount": 220.09,
+    "type": "Cr",
+    "balance": 228912.68,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Mar",
+    "description": "Internet Pmt To Tax Pract 2021Inv00209",
+    "amount": 563478.75,
+    "type": "Cr",
+    "balance": 225433.93,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Mar",
+    "description": "Internet Pmt To Tax Pract 2021Inv00209",
+    "amount": 501811.25,
+    "type": "Cr",
+    "balance": 223622.68,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Mar",
+    "description": "Int-Banking Pmt Frm H W assermann Q47",
+    "amount": 773343,
+    "type": "Cr",
+    "balance": 226965.68,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Mar",
+    "description": "Magtape Credit ABSA Bank 338",
+    "amount": 831451.55,
+    "type": "Cr",
+    "balance": 258417.23,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "12 Mar",
+    "description": "FNB App Payment From Quo0047",
+    "amount": 759900.01,
+    "type": "Cr",
+    "balance": 268317.24,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Mar",
+    "description": "POS Purchase Google *Microsoft A 12 Mar",
+    "amount": 29,
+    "type": "Cr",
+    "balance": 268288.24,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Mar",
+    "description": "Internet Pmt To Payfast*The Courier1541008",
+    "amount": 701000,
+    "type": "Cr",
+    "balance": 267288.24,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "14 Mar",
+    "description": "Magtape Credit SARS VAT",
+    "amount": 538532.89,
+    "type": "Cr",
+    "balance": 305821.13,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "15 Mar",
+    "description": "",
+    "amount": 6,
+    "type": "Cr",
+    "balance": 305815.13,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "15 Mar",
+    "description": "POS Purchase Nandos Tabv Tablevi 13 Mar",
+    "amount": 163,
+    "type": "Cr",
+    "balance": 305652.13,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "15 Mar",
+    "description": "Internet Pmt To Po000740Quo0005943",
+    "amount": 144440,
+    "type": "Cr",
+    "balance": 161212.13,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "15 Mar",
+    "description": "FNB App Payment From H W assermann Q478",
+    "amount": 217689.3,
+    "type": "Cr",
+    "balance": 178901.43,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Mar",
+    "description": "POS Purchase Nable Technologies 16 Mar",
+    "amount": 1842.16,
+    "type": "Cr",
+    "balance": 177059.27,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Mar",
+    "description": "Magtape Credit ABSA Bank Deon / W inston",
+    "amount": 92980.5,
+    "type": "Cr",
+    "balance": 270039.77,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "19 Mar",
+    "description": "POS Purchase Hua Lien Chinese Ta 18 Mar",
+    "amount": 79,
+    "type": "Cr",
+    "balance": 269960.77,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "19 Mar",
+    "description": "FNB App Payment To Po000747Sunlec Inv 50",
+    "amount": 950,
+    "type": "Cr",
+    "balance": 269010.77,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Mar",
+    "description": "POS Purchase KFC Tableview 70 19 Mar",
+    "amount": 84.9,
+    "type": "Cr",
+    "balance": 268925.87,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Mar",
+    "description": "FNB App Payment To Legal FeesX1292",
+    "amount": 416.32,
+    "type": "Cr",
+    "balance": 268509.55,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Mar",
+    "description": "FNB App Payment To CeasersSq763",
+    "amount": 859619.88,
+    "type": "Cr",
+    "balance": 258889.67,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Mar",
+    "description": "Internet Pmt To Po000747Sunlec Inv",
+    "amount": 511100,
+    "type": "Cr",
+    "balance": 257789.67,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Mar",
+    "description": "Internet Pmt To Po000749Sq-000764",
+    "amount": 222333.27,
+    "type": "Cr",
+    "balance": 255456.4,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Mar",
+    "description": "POS Purchase Audible*Rh9Cr5W i0 20 Mar",
+    "amount": 289.39,
+    "type": "Cr",
+    "balance": 255167.01,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Mar",
+    "description": "FNB App Payment From 33",
+    "amount": 971445.11,
+    "type": "Cr",
+    "balance": 256612.12,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Mar",
+    "description": "FNB App Payment To Branded ShirtsSunlec Energy",
+    "amount": 1185,
+    "type": "Cr",
+    "balance": 255427.12,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Mar",
+    "description": "POS Purchase W ww.Pnponline.Co.Za 22 Mar",
+    "amount": 10500,
+    "type": "Cr",
+    "balance": 244927.12,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Mar",
+    "description": "FNB App Payment To Cricut",
+    "amount": 7000,
+    "type": "Cr",
+    "balance": 237927.12,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Mar",
+    "description": "POS Purchase W ww.Pnponline.Co.Za 22 Mar",
+    "amount": 14000,
+    "type": "Cr",
+    "balance": 223927.12,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Mar",
+    "description": "POS Purchase Peregrine Farm St26 24 Mar",
+    "amount": 102,
+    "type": "Cr",
+    "balance": 223825.12,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Mar",
+    "description": "POS Purchase Engen Edgemead Moto 24 Mar",
+    "amount": 609.14,
+    "type": "Cr",
+    "balance": 223215.98,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Mar",
+    "description": "POS Purchase Engen Stellenbosch 24 Mar",
+    "amount": 1265.27,
+    "type": "Cr",
+    "balance": 221950.71,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Mar",
+    "description": "Internet Pmt To Hubble Po000752Sun012 Qu 0002321",
+    "amount": 746920,
+    "type": "Cr",
+    "balance": 175030.71,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Mar",
+    "description": "POS Purchase Payfast*Lavron Elec 25 Mar",
+    "amount": 115,
+    "type": "Cr",
+    "balance": 174915.71,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Mar",
+    "description": "POS Purchase 4X4 Direct 25 Mar",
+    "amount": 525,
+    "type": "Cr",
+    "balance": 174390.71,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Mar",
+    "description": "Magtape Credit Transfer From Standard Ba",
+    "amount": 50000,
+    "type": "Cr",
+    "balance": 224390.71,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Mar",
+    "description": "Magtape Credit ABSA Bank Longmans 33",
+    "amount": 981375.4,
+    "type": "Cr",
+    "balance": 225766.11,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Mar",
+    "description": "",
+    "amount": 0,
+    "type": "Cr",
+    "balance": 225766.11,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Mar",
+    "description": "",
+    "amount": 85,
+    "type": "Cr",
+    "balance": 225681.11,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Mar",
+    "description": "",
+    "amount": 243.69,
+    "type": "Cr",
+    "balance": 225437.42,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Apr",
+    "description": "POS Purchase Adobe 11 Apr",
+    "amount": 218.75,
+    "type": "Cr",
+    "balance": 169719.32,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Apr",
+    "description": "Internet Pmt To Po000750",
+    "amount": 120,
+    "type": "Cr",
+    "balance": 169599.32,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Apr",
+    "description": "POS Purchase Payfast*Canvas And 12 Apr",
+    "amount": 470.21,
+    "type": "Cr",
+    "balance": 169129.11,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Apr",
+    "description": "POS Purchase Paygate*W illow Cree 12 Apr",
+    "amount": 517.98,
+    "type": "Cr",
+    "balance": 168611.13,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Apr",
+    "description": "POS Purchase Google *Microsoft A 12 Apr",
+    "amount": 29,
+    "type": "Cr",
+    "balance": 168582.13,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "15 Apr",
+    "description": "POS Purchase Uber Rides 10 Apr",
+    "amount": 133,
+    "type": "Cr",
+    "balance": 168449.13,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "15 Apr",
+    "description": "",
+    "amount": 600,
+    "type": "Cr",
+    "balance": 167849.13,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "16 Apr",
+    "description": "Magtape Credit SARS VAT",
+    "amount": 556.5,
+    "type": "Cr",
+    "balance": 168405.63,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Apr",
+    "description": "POS Purchase Flm Bothasig 17 Apr",
+    "amount": 59.09,
+    "type": "Cr",
+    "balance": 168346.54,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Apr",
+    "description": "POS Purchase Steers Bothasig 25 17 Apr",
+    "amount": 71.9,
+    "type": "Cr",
+    "balance": 168274.64,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Apr",
+    "description": "POS Purchase Engen Edgemead Moto 17 Apr",
+    "amount": 1925.84,
+    "type": "Cr",
+    "balance": 166348.8,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "19 Apr",
+    "description": "FNB App Payment To Po",
+    "amount": 851664.61,
+    "type": "Cr",
+    "balance": 164684.19,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Apr",
+    "description": "POS Purchase Audible*Ny5W c7Xd3 20 Apr",
+    "amount": 295.82,
+    "type": "Cr",
+    "balance": 164388.37,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Apr",
+    "description": "POS Purchase Easypay Mp485442*8363 18 Apr",
+    "amount": 1650.5,
+    "type": "Cr",
+    "balance": 162737.87,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Apr",
+    "description": "Magtape Credit Trf From Sunlec Stdbank",
+    "amount": 100000,
+    "type": "Cr",
+    "balance": 262737.87,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Apr",
+    "description": "POS Purchase Superspar Ceres 23 Apr",
+    "amount": 188.06,
+    "type": "Cr",
+    "balance": 262549.81,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Apr",
+    "description": "FNB App Payment To BMW ServiceInv:17",
+    "amount": 284013,
+    "type": "Cr",
+    "balance": 258536.81,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Apr",
+    "description": "FNB App Payment To Po000Quote 493",
+    "amount": 741094.8,
+    "type": "Cr",
+    "balance": 257442.01,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Apr",
+    "description": "FNB App Rtc Pmt To Office Cleaning 26/4Sunlec Energy Soluti",
+    "amount": 350,
+    "type": "Cr",
+    "balance": 257092.01,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Apr",
+    "description": "Rtc Credit Hashmat Ali Upadhey18Bo15978",
+    "amount": 555356.12,
+    "type": "Cr",
+    "balance": 312448.13,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Apr",
+    "description": "Fuel Purchase Fuel 1 Retail Manha485442*8363 24 Apr",
+    "amount": 1022.6,
+    "type": "Cr",
+    "balance": 311425.53,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Apr",
+    "description": "",
+    "amount": 0,
+    "type": "Cr",
+    "balance": 311425.53,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Apr",
+    "description": "",
+    "amount": 85,
+    "type": "Cr",
+    "balance": 311340.53,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Apr",
+    "description": "",
+    "amount": 192.35,
+    "type": "Cr",
+    "balance": 311148.18,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 May",
+    "description": "FNB App Payment From Justin",
+    "amount": 3514.4,
+    "type": "Cr",
+    "balance": 288218.59,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 May",
+    "description": "POS Purchase Uber Eats 08 May",
+    "amount": 78.71,
+    "type": "Cr",
+    "balance": 288139.88,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 May",
+    "description": "POS Purchase Steers 10 May",
+    "amount": 89.9,
+    "type": "Cr",
+    "balance": 288049.98,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 May",
+    "description": "POS Purchase Payfast*Cash Conver 09 May",
+    "amount": 5999,
+    "type": "Cr",
+    "balance": 282050.98,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 May",
+    "description": "POS Purchase Adobe 11 May",
+    "amount": 218.68,
+    "type": "Cr",
+    "balance": 281832.3,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 May",
+    "description": "POS Purchase Google *Microsoft A 12 May",
+    "amount": 29,
+    "type": "Cr",
+    "balance": 281803.3,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "14 May",
+    "description": "POS Purchase Payfast*Lavron Elec 13 May",
+    "amount": 115,
+    "type": "Cr",
+    "balance": 281688.3,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "15 May",
+    "description": "POS Purchase Makro Montague 14 May",
+    "amount": 215.2,
+    "type": "Cr",
+    "balance": 281473.1,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "15 May",
+    "description": "POS Purchase Adendorff Montague 14 May",
+    "amount": 660,
+    "type": "Cr",
+    "balance": 280813.1,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "15 May",
+    "description": "POS Purchase Engen Edgemead Moto 14 May",
+    "amount": 1249.2,
+    "type": "Cr",
+    "balance": 279563.9,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "15 May",
+    "description": "Internet Pmt To Takealot OnlineZz 152485403",
+    "amount": 736,
+    "type": "Cr",
+    "balance": 278827.9,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "16 May",
+    "description": "POS Purchase Fuel 1 Retail Manha 15 May",
+    "amount": 1418,
+    "type": "Cr",
+    "balance": 277409.9,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "17 May",
+    "description": "Internet Pmt To Sarseflng 008291210",
+    "amount": 29608.38,
+    "type": "Cr",
+    "balance": 247801.52,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "17 May",
+    "description": "Magtape Credit ABSA Bank Deon / W inston",
+    "amount": 4199.8,
+    "type": "Cr",
+    "balance": 252001.32,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 May",
+    "description": "POS Purchase Cticc Parking 16 May",
+    "amount": 25,
+    "type": "Cr",
+    "balance": 251976.32,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 May",
+    "description": "POS Purchase Steers 17 May",
+    "amount": 89.9,
+    "type": "Cr",
+    "balance": 251886.42,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 May",
+    "description": "POS Purchase Engen Heidelberg Q/ 19 May",
+    "amount": 1002.95,
+    "type": "Cr",
+    "balance": 250883.47,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 May",
+    "description": "POS Purchase Audible*Xr6W 30Xp3 20 May",
+    "amount": 279.07,
+    "type": "Cr",
+    "balance": 250604.4,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 May",
+    "description": "Internet Pmt To Po/0577060",
+    "amount": 140250,
+    "type": "Cr",
+    "balance": 210354.4,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 May",
+    "description": "POS Purchase Huguenot Tunnel485442*8363 19 May",
+    "amount": 50.5,
+    "type": "Cr",
+    "balance": 210303.9,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 May",
+    "description": "POS Purchase Huguenot Tunnel485442*8363 17 May",
+    "amount": 50.5,
+    "type": "Cr",
+    "balance": 210253.4,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 May",
+    "description": "POS Purchase Rtmc 22 May",
+    "amount": 783,
+    "type": "Cr",
+    "balance": 209470.4,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 May",
+    "description": "Internet Pmt To Po",
+    "amount": 299.32,
+    "type": "Cr",
+    "balance": 209171.08,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 May",
+    "description": "FNB App Payment From Inv000343",
+    "amount": 42109,
+    "type": "Cr",
+    "balance": 251280.08,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "24 May",
+    "description": "Electricity Prepaid Electricity",
+    "amount": 500,
+    "type": "Cr",
+    "balance": 250780.08,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 May",
+    "description": "",
+    "amount": 0,
+    "type": "Cr",
+    "balance": 250780.08,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 May",
+    "description": "",
+    "amount": 85,
+    "type": "Cr",
+    "balance": 250695.08,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 May",
+    "description": "",
+    "amount": 182.9,
+    "type": "Cr",
+    "balance": 250512.18,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "04 Jun",
+    "description": "Internet Pmt To Po000768Csun1",
+    "amount": 20363,
+    "type": "Cr",
+    "balance": 189163.69,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "04 Jun",
+    "description": "Internet Pmt To Po Sunlec",
+    "amount": 695.22,
+    "type": "Cr",
+    "balance": 188468.47,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "05 Jun",
+    "description": "POS Purchase Google *Ads*8986 05 Jun",
+    "amount": 100,
+    "type": "Cr",
+    "balance": 188368.47,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "05 Jun",
+    "description": "FNB OB Pmt Johan W assermann",
+    "amount": 54086.8,
+    "type": "Cr",
+    "balance": 242455.27,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "06 Jun",
+    "description": "POS Purchase Uber Rides 02 Jun",
+    "amount": 20,
+    "type": "Cr",
+    "balance": 242435.27,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "06 Jun",
+    "description": "POS Purchase Uber Rides 02 Jun",
+    "amount": 189,
+    "type": "Cr",
+    "balance": 242246.27,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "06 Jun",
+    "description": "Internet Pmt To Po",
+    "amount": 793.5,
+    "type": "Cr",
+    "balance": 241452.77,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "07 Jun",
+    "description": "POS Purchase Communica Cape Town 05 Jun",
+    "amount": 359.9,
+    "type": "Cr",
+    "balance": 241092.87,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "07 Jun",
+    "description": "POS Purchase Rtmc 06 Jun",
+    "amount": 615,
+    "type": "Cr",
+    "balance": 240477.87,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "08 Jun",
+    "description": "POS Purchase Steers 07 Jun",
+    "amount": 119.9,
+    "type": "Cr",
+    "balance": 240357.97,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "10 Jun",
+    "description": "POS Purchase Acdc Dynamics Paard 07 Jun",
+    "amount": 345.33,
+    "type": "Cr",
+    "balance": 240012.64,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Jun",
+    "description": "POS Purchase Adobe 11 Jun",
+    "amount": 222.98,
+    "type": "Cr",
+    "balance": 239789.66,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "12 Jun",
+    "description": "Internet Pmt To Po000780Inv-00005",
+    "amount": 718723.62,
+    "type": "Cr",
+    "balance": 221066.04,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "12 Jun",
+    "description": "Magtape Credit Investecpbandre Viljoen Quo0",
+    "amount": 46500,
+    "type": "Cr",
+    "balance": 227566.04,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Jun",
+    "description": "POS Purchase Brights Montague Pa 11 Jun",
+    "amount": 200.25,
+    "type": "Cr",
+    "balance": 227365.79,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Jun",
+    "description": "POS Purchase Google *Microsoft A 12 Jun",
+    "amount": 29,
+    "type": "Cr",
+    "balance": 227336.79,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Jun",
+    "description": "FNB App Payment From Inv000343",
+    "amount": 735000,
+    "type": "Cr",
+    "balance": 262336.79,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Jun",
+    "description": "Internet Pmt To Cipc Annual ReturnInv00212",
+    "amount": 722300,
+    "type": "Cr",
+    "balance": 260036.79,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Jun",
+    "description": "Internet Pmt To Bookkeeping & Data PInv00217",
+    "amount": 721811.25,
+    "type": "Cr",
+    "balance": 258225.54,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "15 Jun",
+    "description": "POS Purchase Google *Ads*8986 15 Jun",
+    "amount": 500,
+    "type": "Cr",
+    "balance": 257725.54,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Jun",
+    "description": "POS Purchase Engen Bothasig Conv 16 Jun",
+    "amount": 1087.6,
+    "type": "Cr",
+    "balance": 256637.94,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "19 Jun",
+    "description": "FNB App Payment To Po",
+    "amount": 804092.1,
+    "type": "Cr",
+    "balance": 252545.84,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Jun",
+    "description": "POS Purchase Saratoga Spur Steak 18 Jun",
+    "amount": 200,
+    "type": "Cr",
+    "balance": 252345.84,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Jun",
+    "description": "POS Purchase Segen Solar 19 Jun",
+    "amount": 2264.97,
+    "type": "Cr",
+    "balance": 250080.87,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Jun",
+    "description": "Magtape Credit ABSA Bank Joeburg Site",
+    "amount": 2106,
+    "type": "Cr",
+    "balance": 252186.87,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Jun",
+    "description": "POS Purchase Adendorff Montague 20 Jun",
+    "amount": 140,
+    "type": "Cr",
+    "balance": 252046.87,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Jun",
+    "description": "POS Purchase W urth Isando 20 Jun",
+    "amount": 431.19,
+    "type": "Cr",
+    "balance": 251615.68,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Jun",
+    "description": "POS Purchase Farber Coachworks 21 Jun",
+    "amount": 5510,
+    "type": "Cr",
+    "balance": 246105.68,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Jun",
+    "description": "POS Purchase Stevens & Co Pty 21 Jun",
+    "amount": 14999.91,
+    "type": "Cr",
+    "balance": 231105.77,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "24 Jun",
+    "description": "FNB OB Pmt Johan W assermann",
+    "amount": 7688.05,
+    "type": "Cr",
+    "balance": 238793.82,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Jun",
+    "description": "POS Purchase Adendorff Montague 24 Jun",
+    "amount": 755,
+    "type": "Cr",
+    "balance": 238038.82,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Jun",
+    "description": "POS Purchase Acdc Dynamics Richm 24 Jun",
+    "amount": 161.29,
+    "type": "Cr",
+    "balance": 237877.53,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Jun",
+    "description": "Internet Pmt To Mak6977545",
+    "amount": 219,
+    "type": "Cr",
+    "balance": 237658.53,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Jun",
+    "description": "",
+    "amount": 0,
+    "type": "Cr",
+    "balance": 237658.53,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Jun",
+    "description": "",
+    "amount": 85,
+    "type": "Cr",
+    "balance": 237573.53,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Jun",
+    "description": "",
+    "amount": 229.16,
+    "type": "Cr",
+    "balance": 237344.37,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "10 Jul",
+    "description": "FNB App Payment From 4885",
+    "amount": 555.2,
+    "type": "Cr",
+    "balance": 268252.26,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Jul",
+    "description": "POS Purchase Str Parking Ct 170 10 Jul",
+    "amount": 52.8,
+    "type": "Cr",
+    "balance": 268199.46,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Jul",
+    "description": "POS Purchase Eastern Food Bazaar 10 Jul",
+    "amount": 185,
+    "type": "Cr",
+    "balance": 268014.46,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Jul",
+    "description": "POS Purchase Adobe 11 Jul",
+    "amount": 213.73,
+    "type": "Cr",
+    "balance": 267800.73,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Jul",
+    "description": "POS Purchase Uber Rides 09 Jul",
+    "amount": 30,
+    "type": "Cr",
+    "balance": 267770.73,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Jul",
+    "description": "POS Purchase Google *Microsoft A 12 Jul",
+    "amount": 29,
+    "type": "Cr",
+    "balance": 267741.73,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "16 Jul",
+    "description": "POS Purchase Engen Rivergate Con 15 Jul",
+    "amount": 14.9,
+    "type": "Cr",
+    "balance": 267726.83,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "16 Jul",
+    "description": "POS Purchase Engen Rivergate Con 15 Jul",
+    "amount": 156.9,
+    "type": "Cr",
+    "balance": 267569.93,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "16 Jul",
+    "description": "POS Purchase Build It Tablevie10 15 Jul",
+    "amount": 199.95,
+    "type": "Cr",
+    "balance": 267369.98,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "17 Jul",
+    "description": "",
+    "amount": 0.58,
+    "type": "Cr",
+    "balance": 267369.4,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "17 Jul",
+    "description": "",
+    "amount": 15.63,
+    "type": "Cr",
+    "balance": 267353.77,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "17 Jul",
+    "description": "",
+    "amount": 17.37,
+    "type": "Cr",
+    "balance": 267336.4,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "19 Jul",
+    "description": "POS Purchase Segen Solar 18 Jul",
+    "amount": 2543.59,
+    "type": "Cr",
+    "balance": 264792.81,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "19 Jul",
+    "description": "Magtape Credit 344",
+    "amount": 912118.7,
+    "type": "Cr",
+    "balance": 276911.51,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Jul",
+    "description": "FNB App Payment To Veritas Honing Guide",
+    "amount": 1270,
+    "type": "Cr",
+    "balance": 275641.51,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Jul",
+    "description": "Internet Pmt To Payfast*Canvas And M166665271",
+    "amount": 900,
+    "type": "Cr",
+    "balance": 274741.51,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Jul",
+    "description": "POS Purchase Gb Bearing Paarden 22 Jul",
+    "amount": 507.15,
+    "type": "Cr",
+    "balance": 274234.36,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Jul",
+    "description": "POS Purchase Fuel 1 Retail Manha 22 Jul",
+    "amount": 1753.75,
+    "type": "Cr",
+    "balance": 272480.61,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Jul",
+    "description": "Internet Pmt To Po/0600840",
+    "amount": 139330,
+    "type": "Cr",
+    "balance": 233150.61,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Jul",
+    "description": "Internet Pmt To Po/0600930",
+    "amount": 157155,
+    "type": "Cr",
+    "balance": 175995.61,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Jul",
+    "description": "FNB App Payment From Johan W assermann",
+    "amount": 44568,
+    "type": "Cr",
+    "balance": 220563.61,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Jul",
+    "description": "Magtape Credit SARS VAT",
+    "amount": 212138.14,
+    "type": "Cr",
+    "balance": 232701.75,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "24 Jul",
+    "description": "POS Purchase Mumtaaz Begum 22 Jul",
+    "amount": 67,
+    "type": "Cr",
+    "balance": 232634.75,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "24 Jul",
+    "description": "POS Purchase Communica Cape Town 22 Jul",
+    "amount": 81.6,
+    "type": "Cr",
+    "balance": 232553.15,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "24 Jul",
+    "description": "POS Purchase Flysafair 414Lq0-Sv 23 Jul",
+    "amount": 1220,
+    "type": "Cr",
+    "balance": 231333.15,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "24 Jul",
+    "description": "POS Purchase Aliexpress 24 Jul",
+    "amount": 2210.87,
+    "type": "Cr",
+    "balance": 229122.28,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "24 Jul",
+    "description": "POS Purchase Aliexpress 24 Jul",
+    "amount": 2229.16,
+    "type": "Cr",
+    "balance": 226893.12,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Jul",
+    "description": "POS Purchase Build It Tablevie10 25 Jul",
+    "amount": 9.95,
+    "type": "Cr",
+    "balance": 226883.17,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Jul",
+    "description": "POS Purchase Uber Rides 23 Jul",
+    "amount": 10,
+    "type": "Cr",
+    "balance": 226873.17,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Jul",
+    "description": "POS Purchase Total Control Elect 25 Jul",
+    "amount": 32.51,
+    "type": "Cr",
+    "balance": 226840.66,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Jul",
+    "description": "POS Purchase PNP Fam Circle Cent 25 Jul",
+    "amount": 47.99,
+    "type": "Cr",
+    "balance": 226792.67,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Jul",
+    "description": "POS Purchase Central Fisheries 25 Jul",
+    "amount": 87,
+    "type": "Cr",
+    "balance": 226705.67,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Jul",
+    "description": "POS Purchase Facebk *8V5Pj7Yrr2 25 Jul",
+    "amount": 58.37,
+    "type": "Cr",
+    "balance": 226647.3,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Jul",
+    "description": "FNB App Payment From Justin",
+    "amount": 800,
+    "type": "Cr",
+    "balance": 227447.3,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Jul",
+    "description": "Internet Pmt To Quo004907 LabourSolar Install",
+    "amount": 800,
+    "type": "Cr",
+    "balance": 226647.3,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Jul",
+    "description": "",
+    "amount": 0,
+    "type": "Cr",
+    "balance": 226647.3,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Jul",
+    "description": "",
+    "amount": 89,
+    "type": "Cr",
+    "balance": 226558.3,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Jul",
+    "description": "",
+    "amount": 206.48,
+    "type": "Cr",
+    "balance": 226351.82,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "06 Aug",
+    "description": "POS Purchase Acsa Cia 03 Aug",
+    "amount": 168,
+    "type": "Cr",
+    "balance": 205719.2,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "06 Aug",
+    "description": "FeesPymt Fee-Facebk *Z5K",
+    "amount": 1.09,
+    "type": "Cr",
+    "balance": 205718.11,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "06 Aug",
+    "description": "FeesPymt Fee-Google *Ads",
+    "amount": 33.19,
+    "type": "Cr",
+    "balance": 205684.92,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "08 Aug",
+    "description": "POS Purchase Claude.Ai Subscript 07 Aug",
+    "amount": 379.34,
+    "type": "Cr",
+    "balance": 205305.58,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "12 Aug",
+    "description": "POS Purchase Adobe 11 Aug",
+    "amount": 215.63,
+    "type": "Cr",
+    "balance": 205089.95,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "12 Aug",
+    "description": "FNB App Payment From Rameezh Quo0042",
+    "amount": 653350,
+    "type": "Cr",
+    "balance": 208439.95,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Aug",
+    "description": "POS Purchase Google *Microsoft A 12 Aug",
+    "amount": 29,
+    "type": "Cr",
+    "balance": 208410.95,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "16 Aug",
+    "description": "FNB App Payment From Quo00492",
+    "amount": 740600,
+    "type": "Cr",
+    "balance": 249010.95,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "16 Aug",
+    "description": "FNB App Rtc Pmt To Po000803Cpt-Q18088",
+    "amount": 538456,
+    "type": "Cr",
+    "balance": 210554.95,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "19 Aug",
+    "description": "POS Purchase Flysafair Adtkoj-Sv 17 Aug",
+    "amount": 50,
+    "type": "Cr",
+    "balance": 210504.95,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Aug",
+    "description": "POS Purchase Payfast*Pudo 18 Aug",
+    "amount": 500,
+    "type": "Cr",
+    "balance": 210004.95,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Aug",
+    "description": "FNB App Payment From Inv000345",
+    "amount": 422845.9,
+    "type": "Cr",
+    "balance": 232850.85,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Aug",
+    "description": "FeesPymt Fee-Google *Mic",
+    "amount": 0.58,
+    "type": "Cr",
+    "balance": 232850.27,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Aug",
+    "description": "POS Purchase Chempet485442*8363 19 Aug",
+    "amount": 1349.9,
+    "type": "Cr",
+    "balance": 231500.37,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Aug",
+    "description": "Internet Pmt To Aug 24 - Salary",
+    "amount": 10000,
+    "type": "Cr",
+    "balance": 221500.37,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "24 Aug",
+    "description": "POS Purchase Flysafair Adtkoj-Ww 23 Aug",
+    "amount": 50,
+    "type": "Cr",
+    "balance": 221450.37,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "24 Aug",
+    "description": "POS Purchase Adobe Systems Softw 24 Aug",
+    "amount": 317.6,
+    "type": "Cr",
+    "balance": 221132.77,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Aug",
+    "description": "POS Purchase Chempet485442*8363 23 Aug",
+    "amount": 171.16,
+    "type": "Cr",
+    "balance": 220961.61,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Aug",
+    "description": "Electronic Payments Bis/Int 6 On True Tiering",
+    "amount": 30,
+    "type": "Cr",
+    "balance": 0,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Aug",
+    "description": "Account Fee",
+    "amount": 89,
+    "type": "Cr",
+    "balance": 220872.61,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Aug",
+    "description": "Fees",
+    "amount": 159.82,
+    "type": "Cr",
+    "balance": 220712.79,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "09 Sep",
+    "description": "Internet Pmt To Po00081310-10017876",
+    "amount": 11216.7,
+    "type": "Dr",
+    "balance": 209943.25,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "10 Sep",
+    "description": "FNB App Payment To Tax Pract 2021Inv00114",
+    "amount": 381581.25,
+    "type": "Cr",
+    "balance": 208362,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "10 Sep",
+    "description": "Internet Pmt To Annual Financial StaInv00223",
+    "amount": 906526.25,
+    "type": "Cr",
+    "balance": 201835.75,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "10 Sep",
+    "description": "Internet Pmt To ProvtaxInv00227",
+    "amount": 902041.25,
+    "type": "Cr",
+    "balance": 199794.5,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "10 Sep",
+    "description": "Internet Pmt To CipcInv00228",
+    "amount": 321150,
+    "type": "Cr",
+    "balance": 198644.5,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "10 Sep",
+    "description": "Magtape Credit Nedbank Transfer",
+    "amount": 100000,
+    "type": "Cr",
+    "balance": 298644.5,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Sep",
+    "description": "POS Purchase Stitch *Pudo 09 Sep",
+    "amount": 500,
+    "type": "Cr",
+    "balance": 298144.5,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Sep",
+    "description": "Internet Pmt To GeewizOz919591",
+    "amount": 534,
+    "type": "Cr",
+    "balance": 297610.5,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Sep",
+    "description": "FNB App Payment From Inv00034",
+    "amount": 374582.2,
+    "type": "Cr",
+    "balance": 302192.7,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Sep",
+    "description": "Magtape Credit SARS VAT",
+    "amount": 214858.7,
+    "type": "Cr",
+    "balance": 317051.4,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "12 Sep",
+    "description": "POS Purchase Engen Plattekloof F 11 Sep",
+    "amount": 1134.4,
+    "type": "Cr",
+    "balance": 315883.95,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "12 Sep",
+    "description": "Internet Trf To Aliexpress-Po0008",
+    "amount": 177646.28,
+    "type": "Cr",
+    "balance": 308237.67,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "12 Sep",
+    "description": "Internet Pmt To Takealot OnlineZz 160713739",
+    "amount": 749,
+    "type": "Cr",
+    "balance": 307488.67,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "12 Sep",
+    "description": "POS Purchase Chempet485442*8363 10 Sep",
+    "amount": 240.52,
+    "type": "Cr",
+    "balance": 307248.15,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Sep",
+    "description": "POS Purchase Build It Bothasig 12 Sep",
+    "amount": 255.8,
+    "type": "Cr",
+    "balance": 306992.35,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Sep",
+    "description": "POS Purchase Google *Microsoft 12 Sep",
+    "amount": 29,
+    "type": "Cr",
+    "balance": 306963.35,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "14 Sep",
+    "description": "POS Purchase Herholdts Group Pty 13 Sep",
+    "amount": 220.34,
+    "type": "Cr",
+    "balance": 306743.01,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "14 Sep",
+    "description": "POS Purchase Chempet485442*8363 12 Sep",
+    "amount": 516.21,
+    "type": "Cr",
+    "balance": 306226.8,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "14 Sep",
+    "description": "POS Purchase Cursor, Ai Powered 13 Sep",
+    "amount": 367.83,
+    "type": "Cr",
+    "balance": 305858.97,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "16 Sep",
+    "description": "FNB OB Pmt Johan Wassermann",
+    "amount": 920,
+    "type": "Cr",
+    "balance": 306778.97,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "16 Sep",
+    "description": "POS Purchase Chempet485442*8363 13 Sep",
+    "amount": 455.12,
+    "type": "Cr",
+    "balance": 306323.85,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Sep",
+    "description": "POS Purchase Acdc Dynamics Richm 16 Sep",
+    "amount": 82.7,
+    "type": "Cr",
+    "balance": 306241.15,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Sep",
+    "description": "POS Purchase Claude.Ai Subscript 17 Sep",
+    "amount": 362.58,
+    "type": "Cr",
+    "balance": 305878.57,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Sep",
+    "description": "FNB App Payment From Johan Wassermann",
+    "amount": 2127.5,
+    "type": "Cr",
+    "balance": 308006.07,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Sep",
+    "description": "Internet Pmt To Po000825Sunlec Inv",
+    "amount": 535450,
+    "type": "Cr",
+    "balance": 302555.49,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Sep",
+    "description": "Internet Pmt To Office CleaningSunlec Energy Soluti",
+    "amount": 400,
+    "type": "Cr",
+    "balance": 302155.49,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Sep",
+    "description": "POS Purchase Yoco *Reiki Trave 20 Sep",
+    "amount": 80,
+    "type": "Cr",
+    "balance": 302075.49,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Sep",
+    "description": "POS Purchase Valsa Trading C 12 20 Sep",
+    "amount": 1775.6,
+    "type": "Cr",
+    "balance": 300299.89,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Sep",
+    "description": "POS Purchase Audible*S44Nc54T3 20 Sep",
+    "amount": 268.95,
+    "type": "Cr",
+    "balance": 300030.94,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Sep",
+    "description": "Magtape Credit Nedbank Transfer",
+    "amount": 70000,
+    "type": "Cr",
+    "balance": 370030.94,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Sep",
+    "description": "Internet Pmt To Sunlec Move",
+    "amount": 1000,
+    "type": "Cr",
+    "balance": 369030.94,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Sep",
+    "description": "Internet Pmt To Sunlec Move",
+    "amount": 1500,
+    "type": "Cr",
+    "balance": 367530.94,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Sep",
+    "description": "POS Purchase Chat Ai 24 Sep",
+    "amount": 338.76,
+    "type": "Cr",
+    "balance": 367192.18,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Sep",
+    "description": "Internet Pmt To Po000826So-000479",
+    "amount": 752227.25,
+    "type": "Cr",
+    "balance": 364964.93,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Sep",
+    "description": "FNB OB Pmt Johan Wassermann",
+    "amount": 349.6,
+    "type": "Cr",
+    "balance": 365314.53,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Sep",
+    "description": "Magtape Credit Materials",
+    "amount": 3202,
+    "type": "Cr",
+    "balance": 368516.53,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Sep",
+    "description": "POS Purchase Pep 8716 Cape Town485442*8363 23 Sep",
+    "amount": 799,
+    "type": "Cr",
+    "balance": 367717.53,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Sep",
+    "description": "POS Purchase Bwh Tableview 25 Sep",
+    "amount": 89,
+    "type": "Cr",
+    "balance": 367628.53,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Sep",
+    "description": "Scheduled Payment To Salary - WwainwrighSunlec Salary",
+    "amount": 10000,
+    "type": "Cr",
+    "balance": 357628.53,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Sep",
+    "description": "Internet Pmt To Po000827So-000480",
+    "amount": 742113.7,
+    "type": "Cr",
+    "balance": 355514.83,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Sep",
+    "description": "Fees",
+    "amount": 219.96,
+    "type": "Cr",
+    "balance": 355205.87,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Oct",
+    "description": "POS Purchase Claude.Ai Subscript 17 Oct",
+    "amount": 360.91,
+    "type": "Cr",
+    "balance": 346192.17,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Oct",
+    "description": "POS Purchase Flw*Uber Trips 18 Oct",
+    "amount": 181,
+    "type": "Cr",
+    "balance": 346011.17,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Oct",
+    "description": "POS Purchase Audible*U077D4M73 20 Oct",
+    "amount": 270.45,
+    "type": "Cr",
+    "balance": 345740.72,
+    "balanceType": "Cr",
+    "reference": "*U077D4M73400568*"
+  },
+  {
+    "date": "22 Oct",
+    "description": "FNB App Payment From Quo0049",
+    "amount": 916950,
+    "type": "Cr",
+    "balance": 352690.72,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Oct",
+    "description": "Internet Pmt To Arep MembershipPri033",
+    "amount": 201700,
+    "type": "Cr",
+    "balance": 350990.72,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Oct",
+    "description": "FeesPymt Fee-Google *Mic",
+    "amount": 0.58,
+    "type": "Cr",
+    "balance": 350990.14,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Oct",
+    "description": "POS Purchase Chat Ai 24 Oct",
+    "amount": 346.58,
+    "type": "Cr",
+    "balance": 350643.56,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Oct",
+    "description": "Electronic Payments Bis/Int 7 On True Tiering",
+    "amount": 35,
+    "type": "Cr",
+    "balance": 0,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Oct",
+    "description": "Account Fee",
+    "amount": 89,
+    "type": "Cr",
+    "balance": 350554.56,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Oct",
+    "description": "Fees",
+    "amount": 126.2,
+    "type": "Cr",
+    "balance": 350428.36,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "08 Nov",
+    "description": "Magtape Credit Investecpbquo00500",
+    "amount": 20840.78,
+    "type": "Cr",
+    "balance": 391215.44,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "08 Nov",
+    "description": "Internet Pmt To T9914I29Unewsbg6Lzabq",
+    "amount": 1000,
+    "type": "Cr",
+    "balance": 390215.44,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Nov",
+    "description": "Internet Pmt To Po000839Qsl-062",
+    "amount": 536254.85,
+    "type": "Cr",
+    "balance": 383960.59,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "12 Nov",
+    "description": "POS Purchase Payfast*Citybug Shu 11 Nov",
+    "amount": 100,
+    "type": "Cr",
+    "balance": 383860.59,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "12 Nov",
+    "description": "POS Purchase Payfast*Citybug Shu 11 Nov",
+    "amount": 576,
+    "type": "Cr",
+    "balance": 383284.59,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "12 Nov",
+    "description": "FNB App Payment To Po000839So-00049",
+    "amount": 425489,
+    "type": "Cr",
+    "balance": 377795.59,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "12 Nov",
+    "description": "FNB App Payment From Daniel",
+    "amount": 3555,
+    "type": "Cr",
+    "balance": 381350.59,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Nov",
+    "description": "POS Purchase Herholdts Brackenga 12 Nov",
+    "amount": 2756.04,
+    "type": "Cr",
+    "balance": 378594.55,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Nov",
+    "description": "POS Purchase Google *Microsoft A 12 Nov",
+    "amount": 29,
+    "type": "Cr",
+    "balance": 378565.55,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "14 Nov",
+    "description": "POS Purchase Cursor, Ai Powered 13 Nov",
+    "amount": 371.29,
+    "type": "Cr",
+    "balance": 378194.26,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "14 Nov",
+    "description": "Magtape Credit Quo00499",
+    "amount": 91481.26,
+    "type": "Cr",
+    "balance": 469675.52,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "15 Nov",
+    "description": "POS Purchase Flw*Uber Trips 14 Nov",
+    "amount": 20,
+    "type": "Cr",
+    "balance": 469655.52,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "15 Nov",
+    "description": "POS Purchase Flw*Uber Trips 14 Nov",
+    "amount": 132,
+    "type": "Cr",
+    "balance": 469523.52,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "15 Nov",
+    "description": "Internet Pmt To Po000842636",
+    "amount": 855444.1,
+    "type": "Cr",
+    "balance": 464079.42,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "15 Nov",
+    "description": "FNB App Payment To Po000844Quo00790",
+    "amount": 135650,
+    "type": "Cr",
+    "balance": 428429.42,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "16 Nov",
+    "description": "FNB App Payment From H Wassermann Delive",
+    "amount": 580,
+    "type": "Cr",
+    "balance": 429009.42,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "16 Nov",
+    "description": "Int-Banking Pmt Frm Ivn000349",
+    "amount": 313882.2,
+    "type": "Cr",
+    "balance": 442891.62,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Nov",
+    "description": "POS Purchase The Daily Coffee Ca 17 Nov",
+    "amount": 150,
+    "type": "Cr",
+    "balance": 442741.62,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Nov",
+    "description": "POS Purchase Ik *Thunder Brother 17 Nov",
+    "amount": 210,
+    "type": "Cr",
+    "balance": 442531.62,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Nov",
+    "description": "POS Purchase Iseli Express Shop 15 Nov",
+    "amount": 2325.01,
+    "type": "Cr",
+    "balance": 440206.61,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Nov",
+    "description": "POS Purchase Claude.Ai Subscript 17 Nov",
+    "amount": 373.86,
+    "type": "Cr",
+    "balance": 439832.75,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Nov",
+    "description": "Rtc Credit Basil Van Merch1617A186Cf",
+    "amount": 19611.75,
+    "type": "Cr",
+    "balance": 459444.5,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Nov",
+    "description": "Fuel Purchase Fuel 1 Retail Manha485442*8363 15 Nov",
+    "amount": 801.3,
+    "type": "Cr",
+    "balance": 458643.2,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "19 Nov",
+    "description": "POS Purchase KFC Bothasig 33 18 Nov",
+    "amount": 99.8,
+    "type": "Cr",
+    "balance": 458543.4,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "19 Nov",
+    "description": "FNB App Payment To Po000810Cpt-35237",
+    "amount": 21221.88,
+    "type": "Cr",
+    "balance": 457321.52,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Nov",
+    "description": "POS Purchase KFC Plattekloof 22 19 Nov",
+    "amount": 46.9,
+    "type": "Cr",
+    "balance": 457274.62,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Nov",
+    "description": "POS Purchase Communica Cape Town 18 Nov",
+    "amount": 610.5,
+    "type": "Cr",
+    "balance": 456664.12,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Nov",
+    "description": "POS Purchase Acdc Dynamics Richm 18 Nov",
+    "amount": 1649.01,
+    "type": "Cr",
+    "balance": 455015.11,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Nov",
+    "description": "Internet Pmt To Sarseflng 008614469",
+    "amount": 525957.16,
+    "type": "Cr",
+    "balance": 429057.95,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Nov",
+    "description": "POS Purchase KFC Paarl 20 Nov",
+    "amount": 120.8,
+    "type": "Cr",
+    "balance": 428936.57,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Nov",
+    "description": "POS Purchase Audible*Q66Zs4X83 20 Nov",
+    "amount": 277.38,
+    "type": "Cr",
+    "balance": 428659.19,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Nov",
+    "description": "POS Purchase Superspar Paarl Vin 20 Nov",
+    "amount": 91.98,
+    "type": "Cr",
+    "balance": 428567.21,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Nov",
+    "description": "POS Purchase Spar Cedar 21 Nov",
+    "amount": 153.93,
+    "type": "Cr",
+    "balance": 428413.28,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Nov",
+    "description": "POS Purchase Payfast*Citybug Shu 20 Nov",
+    "amount": 576,
+    "type": "Cr",
+    "balance": 427837.28,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Nov",
+    "description": "POS Purchase Rubicon Electrical 21 Nov",
+    "amount": 3296.59,
+    "type": "Cr",
+    "balance": 424540.69,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Nov",
+    "description": "POS Purchase Herholdts Brackenga 21 Nov",
+    "amount": 4884.39,
+    "type": "Cr",
+    "balance": 419656.3,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Nov",
+    "description": "POS Purchase Spar Bothasig. 21 Nov",
+    "amount": 110,
+    "type": "Cr",
+    "balance": 419546.3,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Nov",
+    "description": "POS Purchase KFC Richmond 22 Nov",
+    "amount": 131.8,
+    "type": "Cr",
+    "balance": 419414.5,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Nov",
+    "description": "POS Purchase Fastner Warehouse 6 22 Nov",
+    "amount": 510,
+    "type": "Cr",
+    "balance": 418904.5,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Nov",
+    "description": "POS Purchase Flw*Uber Trips 22 Nov",
+    "amount": 40,
+    "type": "Cr",
+    "balance": 418864.5,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Nov",
+    "description": "POS Purchase Chat Ai 24 Nov",
+    "amount": 352.08,
+    "type": "Cr",
+    "balance": 418512.42,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Nov",
+    "description": "FNB OB Pmt Johan Wassermann",
+    "amount": 3257.61,
+    "type": "Cr",
+    "balance": 421770.03,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Nov",
+    "description": "POS Purchase Herholdts Brackenga 25 Nov",
+    "amount": 1023.89,
+    "type": "Cr",
+    "balance": 420746.14,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Nov",
+    "description": "POS Purchase Herholdts Brackenga 25 Nov",
+    "amount": 2177.94,
+    "type": "Cr",
+    "balance": 418568.2,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Nov",
+    "description": "POS Purchase Sage Vip 25 Nov",
+    "amount": 10140,
+    "type": "Cr",
+    "balance": 408428.2,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Nov",
+    "description": "Scheduled Payment To Salary - WwainwrighSunlec Salary",
+    "amount": 10000,
+    "type": "Cr",
+    "balance": 398428.2,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Nov",
+    "description": "Electronic Payments Bis/Int 17 On True Tiering",
+    "amount": 85,
+    "type": "Cr",
+    "balance": 0,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Nov",
+    "description": "Account Fee",
+    "amount": 89,
+    "type": "Cr",
+    "balance": 398339.2,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "06 Dec",
+    "description": "Magtape Credit Basil Van Merch",
+    "amount": 21830.1,
+    "type": "Cr",
+    "balance": 372261.03,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "07 Dec",
+    "description": "POS Purchase Build It Bothasig 06 Dec",
+    "amount": 139.9,
+    "type": "Cr",
+    "balance": 372121.13,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "07 Dec",
+    "description": "POS Purchase Total Control Elect 06 Dec",
+    "amount": 498.68,
+    "type": "Cr",
+    "balance": 371622.45,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "07 Dec",
+    "description": "FNB App Payment To Ecosport Actuator3986",
+    "amount": 765,
+    "type": "Cr",
+    "balance": 370857.45,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "07 Dec",
+    "description": "Magtape Credit ABSA Bank Wilgenhof Kobus",
+    "amount": 9087.99,
+    "type": "Cr",
+    "balance": 379945.44,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "07 Dec",
+    "description": "POS Purchase Brights Brackengate485442*8363 04 Dec",
+    "amount": 1318.55,
+    "type": "Cr",
+    "balance": 378626.89,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "09 Dec",
+    "description": "POS Purchase Makro.Co.Za 06 Dec",
+    "amount": 464.95,
+    "type": "Cr",
+    "balance": 378161.94,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "09 Dec",
+    "description": "POS Purchase Brights Montague Pa 06 Dec",
+    "amount": 546.75,
+    "type": "Cr",
+    "balance": 377615.19,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "09 Dec",
+    "description": "FNB App Payment To Accounting FeesInv00237",
+    "amount": 581811.25,
+    "type": "Cr",
+    "balance": 375803.94,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "09 Dec",
+    "description": "Internet Pmt To Po000858Sues",
+    "amount": 172.3,
+    "type": "Cr",
+    "balance": 375631.64,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "10 Dec",
+    "description": "POS Purchase Brights Plattekloof 07 Dec",
+    "amount": 871.4,
+    "type": "Cr",
+    "balance": 374760.24,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "10 Dec",
+    "description": "POS Purchase Brights Montague Pa 07 Dec",
+    "amount": 1080.07,
+    "type": "Cr",
+    "balance": 373680.17,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "10 Dec",
+    "description": "FNB App Payment To Po000867Quo000809",
+    "amount": 914375,
+    "type": "Cr",
+    "balance": 359305.17,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "10 Dec",
+    "description": "FeesPymt Fee-Google *Ads",
+    "amount": 13.7,
+    "type": "Cr",
+    "balance": 359291.47,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Dec",
+    "description": "POS Purchase Acdc Dynamics Richm 09 Dec",
+    "amount": 2088.08,
+    "type": "Cr",
+    "balance": 357203.39,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Dec",
+    "description": "POS Purchase Brights Montague Pa 09 Dec",
+    "amount": 196.13,
+    "type": "Cr",
+    "balance": 357007.26,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Dec",
+    "description": "POS Purchase Google Microsoft Ap 11 Dec",
+    "amount": 29,
+    "type": "Cr",
+    "balance": 356978.26,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Dec",
+    "description": "FNB App Payment To Po",
+    "amount": 309.35,
+    "type": "Cr",
+    "balance": 356668.91,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Dec",
+    "description": "FNB App Payment To Branded ShirtsSunlec Energy",
+    "amount": 3322,
+    "type": "Cr",
+    "balance": 353346.91,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "14 Dec",
+    "description": "POS Purchase Fuel 1 Retail Manha 13 Dec",
+    "amount": 1007.6,
+    "type": "Cr",
+    "balance": 352339.31,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "17 Dec",
+    "description": "POS Purchase Codeium.Com 16 Dec",
+    "amount": 183.19,
+    "type": "Cr",
+    "balance": 352156.12,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Dec",
+    "description": "POS Purchase Brights Montague Pa 16 Dec",
+    "amount": 645.45,
+    "type": "Cr",
+    "balance": 351510.67,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Dec",
+    "description": "POS Purchase Claude.Ai Subscript 17 Dec",
+    "amount": 365.95,
+    "type": "Cr",
+    "balance": 351144.72,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "19 Dec",
+    "description": "Magtape Credit Boeta Fluke Tester",
+    "amount": 4500,
+    "type": "Cr",
+    "balance": 355644.72,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "19 Dec",
+    "description": "Magtape Credit Capitec Quo0050",
+    "amount": 274999,
+    "type": "Cr",
+    "balance": 360643.72,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "19 Dec",
+    "description": "Magtape Credit Capitec Quo00501",
+    "amount": 915915,
+    "type": "Cr",
+    "balance": 376558.72,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Dec",
+    "description": "POS Purchase Brights Montague Pa 18 Dec",
+    "amount": 440.55,
+    "type": "Cr",
+    "balance": 376118.17,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Dec",
+    "description": "POS Purchase Brights Plattekloof 18 Dec",
+    "amount": 1744.9,
+    "type": "Cr",
+    "balance": 374373.27,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Dec",
+    "description": "POS Purchase Brights Montague Pa 18 Dec",
+    "amount": 3799,
+    "type": "Cr",
+    "balance": 370574.27,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Dec",
+    "description": "POS Purchase Audible*Z96Ta6Ap0 20 Dec",
+    "amount": 281.44,
+    "type": "Cr",
+    "balance": 370292.83,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Dec",
+    "description": "FNB App Payment From Ivn0003493",
+    "amount": 590.47,
+    "type": "Cr",
+    "balance": 370883.3,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Dec",
+    "description": "Magtape Credit Inv00035",
+    "amount": 38163.73,
+    "type": "Cr",
+    "balance": 379047.03,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Dec",
+    "description": "POS Purchase Brights Montague Pa 20 Dec",
+    "amount": 381.65,
+    "type": "Cr",
+    "balance": 378665.38,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Dec",
+    "description": "Magtape Credit Inv 000350",
+    "amount": 675817.89,
+    "type": "Cr",
+    "balance": 454483.27,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Dec",
+    "description": "Magtape Credit Inv 000350",
+    "amount": 676278.8,
+    "type": "Cr",
+    "balance": 530762.07,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Dec",
+    "description": "FNB App Payment From Rameezh Quo0035",
+    "amount": 23500,
+    "type": "Cr",
+    "balance": 534262.07,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Dec",
+    "description": "FNB App Geo Payment From Juliah Mubaiwa",
+    "amount": 12000,
+    "type": "Cr",
+    "balance": 546262.07,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Dec",
+    "description": "Scheduled Payment To Salary - WwainwrighSunlec Salary",
+    "amount": 10000,
+    "type": "Cr",
+    "balance": 536262.07,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Dec",
+    "description": "FNB App Payment From Inv 00034",
+    "amount": 999087.99,
+    "type": "Cr",
+    "balance": 545350.06,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Dec",
+    "description": "Electronic Payments Bis/Int 14 On True Tiering",
+    "amount": 70,
+    "type": "Cr",
+    "balance": 0,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "16 Jan",
+    "description": "POS Purchase Checkers Bothasig 15 Jan",
+    "amount": 101.41,
+    "type": "Cr",
+    "balance": 519783.82,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "16 Jan",
+    "description": "POS Purchase KFC Sea Point 15 Jan",
+    "amount": 103.4,
+    "type": "Cr",
+    "balance": 519680.42,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "16 Jan",
+    "description": "POS Purchase Google *Zoiper 15 Jan",
+    "amount": 204.99,
+    "type": "Cr",
+    "balance": 519475.43,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "16 Jan",
+    "description": "FNB App Payment To Po000874Sunlec Inv 54",
+    "amount": 850,
+    "type": "Cr",
+    "balance": 518625.43,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "16 Jan",
+    "description": "FNB App Payment To Po000876Fwct-Sq02943",
+    "amount": 517030.35,
+    "type": "Cr",
+    "balance": 501595.08,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "16 Jan",
+    "description": "Internet Pmt To TCG9914Plqwhjr2Bdu0Jpuo",
+    "amount": 1000,
+    "type": "Cr",
+    "balance": 500595.08,
+    "balanceType": "Cr",
+    "reference": "TCG9914"
+  },
+  {
+    "date": "16 Jan",
+    "description": "FNB App Rtc Pmt To Po000878InvoiceTba",
+    "amount": 6000,
+    "type": "Cr",
+    "balance": 494595.08,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "17 Jan",
+    "description": "POS Purchase Steers Bothasig 15 Jan",
+    "amount": 34.9,
+    "type": "Cr",
+    "balance": 494560.18,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "17 Jan",
+    "description": "POS Purchase Yoco *Icezeit Gel 16 Jan",
+    "amount": 171,
+    "type": "Cr",
+    "balance": 494389.18,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "17 Jan",
+    "description": "POS Purchase Herholdts Brackenga 16 Jan",
+    "amount": 3225.45,
+    "type": "Cr",
+    "balance": 491163.73,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "17 Jan",
+    "description": "POS Purchase Codeium.Com 16 Jan",
+    "amount": 193.49,
+    "type": "Cr",
+    "balance": 490970.24,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Jan",
+    "description": "POS Purchase KFC Bothasig 33 17 Jan",
+    "amount": 39.9,
+    "type": "Cr",
+    "balance": 490930.34,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Jan",
+    "description": "POS Purchase Brights Brackengate 16 Jan",
+    "amount": 133.9,
+    "type": "Cr",
+    "balance": 490796.44,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Jan",
+    "description": "POS Purchase Nandos Bothasig U 16 Jan",
+    "amount": 196,
+    "type": "Cr",
+    "balance": 490600.44,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Jan",
+    "description": "POS Purchase Total Control Elect 17 Jan",
+    "amount": 217.18,
+    "type": "Cr",
+    "balance": 490383.26,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Jan",
+    "description": "POS Purchase Checkers Bothasig 17 Jan",
+    "amount": 234.93,
+    "type": "Cr",
+    "balance": 490148.33,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Jan",
+    "description": "POS Purchase Jam.Dev 17 Jan",
+    "amount": 270.03,
+    "type": "Cr",
+    "balance": 489878.3,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Jan",
+    "description": "POS Purchase Claude.Ai Subscript 17 Jan",
+    "amount": 385.75,
+    "type": "Cr",
+    "balance": 489492.55,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Jan",
+    "description": "Internet Pmt To Sarseflng 00871472",
+    "amount": 101551.21,
+    "type": "Cr",
+    "balance": 487941.34,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "20 Jan",
+    "description": "FNB App Rtc Pmt To Po000Qu1153",
+    "amount": 212981.42,
+    "type": "Cr",
+    "balance": 484959.92,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Jan",
+    "description": "FeesPymt Fee-Google Micr",
+    "amount": 0.58,
+    "type": "Cr",
+    "balance": 484959.34,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Jan",
+    "description": "FeesPymt Fee-Google *Zoi",
+    "amount": 4.1,
+    "type": "Cr",
+    "balance": 484955.24,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Jan",
+    "description": "POS Purchase KFC Soneike 20 Jan",
+    "amount": 39.9,
+    "type": "Cr",
+    "balance": 484915.34,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Jan",
+    "description": "POS Purchase Ok Mini Mark Parow 20 Jan",
+    "amount": 65.95,
+    "type": "Cr",
+    "balance": 484849.39,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Jan",
+    "description": "POS Purchase Herholdts Brackenga 20 Jan",
+    "amount": 637.02,
+    "type": "Cr",
+    "balance": 484212.37,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Jan",
+    "description": "POS Purchase The Hussar Grill 18 Jan",
+    "amount": 710,
+    "type": "Cr",
+    "balance": 483502.37,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Jan",
+    "description": "POS Purchase Audible*Zc0C12Zp2 20 Jan",
+    "amount": 287.46,
+    "type": "Cr",
+    "balance": 483214.91,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Jan",
+    "description": "POS Purchase Str Parking Ct 1 21 Jan",
+    "amount": 4.8,
+    "type": "Cr",
+    "balance": 483210.11,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Jan",
+    "description": "POS Purchase KFC Koeb*8986 21 Jan",
+    "amount": 99.9,
+    "type": "Cr",
+    "balance": 483110.21,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Jan",
+    "description": "POS Purchase Sea Point Paint And 21 Jan",
+    "amount": 157,
+    "type": "Cr",
+    "balance": 482953.21,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Jan",
+    "description": "POS Purchase Checkers Seapoint 21 Jan",
+    "amount": 378.99,
+    "type": "Cr",
+    "balance": 482574.22,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Jan",
+    "description": "POS Purchase Agrico Bellville 20 Jan",
+    "amount": 1664.55,
+    "type": "Cr",
+    "balance": 480909.67,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "22 Jan",
+    "description": "POS Purchase Fuel 1 Retail Parow 20 Jan",
+    "amount": 1744.9,
+    "type": "Cr",
+    "balance": 479164.77,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Jan",
+    "description": "POS Purchase Steers Bothasig 25 22 Jan",
+    "amount": 173.6,
+    "type": "Cr",
+    "balance": 478991.17,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Jan",
+    "description": "POS Purchase Bolt Nut 21 Jan",
+    "amount": 436.29,
+    "type": "Cr",
+    "balance": 478554.88,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "23 Jan",
+    "description": "POS Purchase Acdc Dynamics Paard 21 Jan",
+    "amount": 562.86,
+    "type": "Cr",
+    "balance": 477992.02,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "24 Jan",
+    "description": "POS Purchase KFC Plattekloof 22 23 Jan",
+    "amount": 128.8,
+    "type": "Cr",
+    "balance": 477863.22,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "24 Jan",
+    "description": "POS Purchase Paystack *Sh Ele 22 Jan",
+    "amount": 319.99,
+    "type": "Cr",
+    "balance": 477543.23,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "24 Jan",
+    "description": "POS Purchase Payfast*Citybug Shu 23 Jan",
+    "amount": 576,
+    "type": "Cr",
+    "balance": 476967.23,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "24 Jan",
+    "description": "POS Purchase Edreams 23 Jan",
+    "amount": 670.53,
+    "type": "Cr",
+    "balance": 476296.7,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Jan",
+    "description": "POS Purchase Brights Plattekloof 23 Jan",
+    "amount": 914.5,
+    "type": "Cr",
+    "balance": 475382.2,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Jan",
+    "description": "POS Purchase Chat Ai 24 Jan",
+    "amount": 360.87,
+    "type": "Cr",
+    "balance": 475021.33,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Jan",
+    "description": "Scheduled Payment To Salary - WwainwrighSunlec Salary",
+    "amount": 10000,
+    "type": "Cr",
+    "balance": 465021.33,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Jan",
+    "description": "Account Fee",
+    "amount": 89,
+    "type": "Cr",
+    "balance": 464932.33,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "06 Feb",
+    "description": "POS Purchase Https://Www.Uber.Co 05 Feb",
+    "amount": 54,
+    "type": "Cr",
+    "balance": 440929.45,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "07 Feb",
+    "description": "POS Purchase De Werf Retail Pty 06 Feb",
+    "amount": 230,
+    "type": "Cr",
+    "balance": 440699.45,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "07 Feb",
+    "description": "POS Purchase Paygate*Fastell 04 Feb",
+    "amount": 2077.73,
+    "type": "Cr",
+    "balance": 438621.72,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "07 Feb",
+    "description": "Internet Pmt To Po",
+    "amount": 342931.95,
+    "type": "Cr",
+    "balance": 435689.77,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "08 Feb",
+    "description": "POS Purchase Brights Montague Pa 06 Feb",
+    "amount": 186.1,
+    "type": "Cr",
+    "balance": 435503.67,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "08 Feb",
+    "description": "POS Purchase Acdc Dynamics Richm 06 Feb",
+    "amount": 607.01,
+    "type": "Cr",
+    "balance": 434896.66,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "10 Feb",
+    "description": "POS Purchase Kwikspar Welgevonde 08 Feb",
+    "amount": 57.97,
+    "type": "Cr",
+    "balance": 434838.69,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Feb",
+    "description": "POS Purchase Brauhaus Strand 08 Feb",
+    "amount": 220,
+    "type": "Cr",
+    "balance": 434618.69,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Feb",
+    "description": "FNB OB Pmt Qu005064 - Baden",
+    "amount": 21088.15,
+    "type": "Cr",
+    "balance": 455706.84,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "11 Feb",
+    "description": "FNB App Payment To Ingco Tools233",
+    "amount": 863189,
+    "type": "Cr",
+    "balance": 452517.84,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "12 Feb",
+    "description": "POS Purchase Flw*Uber Trips 10 Feb",
+    "amount": 39,
+    "type": "Cr",
+    "balance": 452478.84,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "12 Feb",
+    "description": "POS Purchase Plastics Depot N1 C 10 Feb",
+    "amount": 834,
+    "type": "Cr",
+    "balance": 451644.84,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "12 Feb",
+    "description": "FNB App Payment To Solar Panel Aangekoo",
+    "amount": 600,
+    "type": "Cr",
+    "balance": 451044.84,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Feb",
+    "description": "POS Purchase Google Microsoft Ap 11 Feb",
+    "amount": 29,
+    "type": "Cr",
+    "balance": 451015.84,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Feb",
+    "description": "FNB App Geo Payment From Hermanus Botes",
+    "amount": 7786.77,
+    "type": "Cr",
+    "balance": 458802.61,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Feb",
+    "description": "POS Purchase Camp And Climb485442*8363 11 Feb",
+    "amount": 1019,
+    "type": "Cr",
+    "balance": 457783.61,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "13 Feb",
+    "description": "POS Purchase Camp And Climb485442*8363 11 Feb",
+    "amount": 1400,
+    "type": "Cr",
+    "balance": 456383.61,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "14 Feb",
+    "description": "POS Purchase Str Parking Ct 13 13 Feb",
+    "amount": 4.8,
+    "type": "Cr",
+    "balance": 456378.81,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "17 Feb",
+    "description": "POS Purchase Biz Afrika 693 Pty 16 Feb",
+    "amount": 200,
+    "type": "Cr",
+    "balance": 456178.81,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "17 Feb",
+    "description": "POS Purchase Codeium.Com 16 Feb",
+    "amount": 189.47,
+    "type": "Cr",
+    "balance": 455989.34,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "17 Feb",
+    "description": "FNB App Payment From Q50",
+    "amount": 393220,
+    "type": "Cr",
+    "balance": 459209.34,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "17 Feb",
+    "description": "Internet Pmt To Po000888Cpt-Q2576",
+    "amount": 621824.27,
+    "type": "Cr",
+    "balance": 457385.07,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "18 Feb",
+    "description": "POS Purchase Claude.Ai Subscript 17 Feb",
+    "amount": 378.94,
+    "type": "Cr",
+    "balance": 457006.13,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "19 Feb",
+    "description": "FeesPymt Fee-Google Micr",
+    "amount": 0.58,
+    "type": "Cr",
+    "balance": 457005.55,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Feb",
+    "description": "POS Purchase Herholdts Brackenga 20 Feb",
+    "amount": 398.5,
+    "type": "Cr",
+    "balance": 456607.05,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Feb",
+    "description": "POS Purchase Fuel 1 Retail Bellv 20 Feb",
+    "amount": 1908.12,
+    "type": "Cr",
+    "balance": 454698.93,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "21 Feb",
+    "description": "POS Purchase Audible*Rv32I*8986 20 Feb",
+    "amount": 283.79,
+    "type": "Cr",
+    "balance": 454415.14,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "24 Feb",
+    "description": "POS Purchase Edreams Prime M 22 Feb",
+    "amount": 195,
+    "type": "Cr",
+    "balance": 454220.14,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "24 Feb",
+    "description": "Rtc Credit Quo00474018Bo58976",
+    "amount": 614444,
+    "type": "Cr",
+    "balance": 468664.14,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "25 Feb",
+    "description": "POS Purchase Chat Ai 24 Feb",
+    "amount": 357.56,
+    "type": "Cr",
+    "balance": 468306.58,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Feb",
+    "description": "FNB App Payment From Ivn00034",
+    "amount": 938000,
+    "type": "Cr",
+    "balance": 476306.58,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Feb",
+    "description": "Internet Pmt To Po000890Quo0008776",
+    "amount": 209070,
+    "type": "Cr",
+    "balance": 267236.58,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Feb",
+    "description": "Internet Pmt To Po000889Quo00000",
+    "amount": 759487.5,
+    "type": "Cr",
+    "balance": 257749.08,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Feb",
+    "description": "Magtape Credit Inv0003526 - Cameron Whitlie",
+    "amount": 2375.9,
+    "type": "Cr",
+    "balance": 260124.98,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "26 Feb",
+    "description": "Magtape Credit Inv0003529 - Cameron Whitlie",
+    "amount": 3654.7,
+    "type": "Cr",
+    "balance": 263779.68,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Feb",
+    "description": "Scheduled Payment To Salary - WwainwrighSunlec Salary",
+    "amount": 10000,
+    "type": "Cr",
+    "balance": 253779.68,
+    "balanceType": "Cr",
+    "reference": null
+  },
+  {
+    "date": "27 Feb",
+    "description": "Account Fee",
+    "amount": 89,
+    "type": "Cr",
+    "balance": 253690.68,
+    "balanceType": "Cr",
+    "reference": null
+  }
+]

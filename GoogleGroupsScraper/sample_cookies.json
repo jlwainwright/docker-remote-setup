@@ -1,0 +1,13 @@
+{
+  "SID": "your_sid_value_here",
+  "HSID": "your_hsid_value_here",
+  "SSID": "your_ssid_value_here",
+  "APISID": "your_apisid_value_here",
+  "SAPISID": "your_sapisid_value_here",
+  "NID": "your_nid_value_here",
+  "1P_JAR": "your_1p_jar_value_here",
+  "__Secure-1PSID": "your_secure_1psid_value_here",
+  "__Secure-3PSID": "your_secure_3psid_value_here",
+  "__Secure-1PAPISID": "your_secure_1papisid_value_here",
+  "__Secure-3PAPISID": "your_secure_3papisid_value_here"
+} 

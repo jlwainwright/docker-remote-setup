@@ -1,0 +1,134 @@
+{
+  "mcpServers": {
+    "filesystem-devfolder": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/jacques/DevFolder"
+      ],
+      "env": {}
+    },
+    "filesystem-desktop": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/jacques/Desktop",
+        "/Volumes/Macintosh HD-1"
+      ],
+      "disabled": false,
+      "autoApprove": []
+    },
+    "github": {
+      "timeout": 60,
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "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"
+      },
+      "transportType": "stdio"
+    },
+    "sequential-thinking": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-sequential-thinking"
+      ],
+      "env": {}
+    },
+    "memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "env": {
+        "MEMORY_FILE_PATH": "/Users/jacques/DevFolder"
+      }
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-fetch"
+      ],
+      "env": {}
+    },
+    "mcp-playwright": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@executeautomation/playwright-mcp-server"
+      ],
+      "env": {}
+    },
+    "desktopcommandermcp-1": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@zhanyiwp/desktopcommandermcp-1",
+        "--key",
+        "e3f37780-c8d1-43f7-817e-f8e0e5e0d6de"
+      ]
+    },
+    "context7-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@upstash/context7-mcp",
+        "--key",
+        "e3f37780-c8d1-43f7-817e-f8e0e5e0d6de"
+      ]
+    },
+    "perplexity-search": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@smithery/cli@latest",
+        "run",
+        "@arjunkmrm/perplexity-search",
+        "--key",
+        "e3f37780-c8d1-43f7-817e-f8e0e5e0d6de",
+        "--profile",
+        "rubber-bandicoot-8A0nr2"
+      ]
+    },
+    "software-planning-mcp": {
+      "command": "node",
+      "args": [
+        "/Users/jacques/Documents/Cline/MCP/Software-planning-mcp/build/index.js"
+      ],
+      "disabled": false,
+      "autoApprove": []
+    },
+    "iterm-mcp": {
+      "command": "node",
+      "args": ["/Users/jacques/iterm-mcp/build/index.js"]
+    },
+    "sage-accounting": {
+      "command": "docker",
+      "args": [
+        "exec",
+        "-i",
+        "sage-accounting-mcp",
+        "python",
+        "-m",
+        "src.server.stdio_server"
+      ],
+      "env": {
+        "SAGE_USERNAME": "jlwainwright@gmail.com",
+        "SAGE_PASSWORD": "Jlwain@@321",
+        "SAGE_BASE_URL": "https://resellers.accounting.sageone.co.za/api/2.0.0",
+        "SAGE_API_KEY": "{45184B00-610E-4D13-8BD1-3B1D85982A8E}",
+        "SAGE_COMPANY_ID": "15013"
+      }
+    }
+  }
+}

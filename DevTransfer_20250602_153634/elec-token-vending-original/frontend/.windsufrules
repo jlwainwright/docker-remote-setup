@@ -1,0 +1,95 @@
+# Windsurf Rules Configuration
+
+# App Structure Protection
+structure:
+  # Protected directories that maintain core functionality
+  protected_directories:
+    - "frontend/src/pages/api/admin/"
+    - "frontend/src/pages/dashboard/"
+    - "frontend/src/components/"
+    - "frontend/src/lib/"
+    - "frontend/src/utils/"
+    - "electricity_system.py"
+    - "models.py"
+    - "VendElek.py"
+  
+  # Enforce directory structure
+  directory_rules:
+    frontend:
+      - "src/pages": "Next.js pages and API routes"
+      - "src/components": "Reusable UI components only"
+      - "src/lib": "Core business logic"
+      - "src/utils": "Helper functions and utilities"
+      - "src/styles": "Styling and theme files"
+      - "src/config": "Configuration files"
+    backend:
+      - "./": "Python core files"
+      - "data/": "Data storage"
+      - "archive/": "Historical data"
+
+  # File naming conventions
+  naming_conventions:
+    frontend:
+      components: "PascalCase.tsx"
+      pages: "lowercase.tsx"
+      utils: "camelCase.ts"
+    backend:
+      python: "snake_case.py"
+      config: "snake_case.yaml"
+
+  # Enforce module boundaries
+  module_boundaries:
+    frontend:
+      - rule: "src/pages can only import from components, lib, utils"
+      - rule: "src/components cannot import from pages"
+      - rule: "src/lib cannot import from pages"
+    backend:
+      - rule: "models.py cannot import from VendElek.py"
+      - rule: "electricity_system.py is the main orchestrator"
+
+  # Critical files that require review before modification
+  critical_files:
+    - "electricity_system.py"
+    - "models.py"
+    - "frontend/src/pages/api/admin/**/*"
+    - "frontend/src/lib/**/*"
+    - "config.yaml"
+
+  # Feature addition rules
+  feature_rules:
+    - "New features must be added as separate components"
+    - "API endpoints must follow existing pattern in pages/api"
+    - "Database changes require migration files"
+    - "Must maintain existing folder structure"
+
+# Standard ignore patterns
+ignore:
+  - node_modules/
+  - .next/
+  - __pycache__/
+  - .venv/
+  - .git/
+  - backup_files/
+  - *.pyc
+  - *.log
+  - .DS_Store
+
+# Code style and quality
+style:
+  typescript:
+    indent: 2
+    max_line_length: 100
+    semicolons: true
+    quotes: single
+  python:
+    indent: 4
+    max_line_length: 88
+    quotes: double
+
+# Security rules
+security:
+  prevent_secrets:
+    - "API_KEY"
+    - "SECRET_KEY"
+    - "PASSWORD"
+    - "TOKEN"

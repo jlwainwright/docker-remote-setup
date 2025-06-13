@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  # OpenHands Main Application
+  openhands:
+    image: docker.all-hands.dev/all-hands-ai/openhands:0.40
+    container_name: openhands-app
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      # Runtime container configuration
+      - SANDBOX_RUNTIME_CONTAINER_IMAGE=docker.all-hands.dev/all-hands-ai/runtime:0.40-nikolaik
+      # Enable comprehensive logging
+      - LOG_ALL_EVENTS=true
+      # Optional: Set your OpenAI API key (recommended to use .env file instead)
+      # - OPENAI_API_KEY=${OPENAI_API_KEY}
+      # Optional: Set your Anthropic API key
+      # - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      # Optional: Set other LLM provider keys
+      - OLLAMA_BASE_URL=http://100.80.19.96:11434
+      # - AZURE_OPENAI_API_KEY=${AZURE_OPENAI_API_KEY}
+      # - AZURE_OPENAI_ENDPOINT=${AZURE_OPENAI_ENDPOINT}
+    volumes:
+      # Mount Docker socket to allow OpenHands to manage containers
+      - /var/run/docker.sock:/var/run/docker.sock:rw
+      # Persistent state storage
+      - openhands_state:/.openhands-state
+      # Optional: Mount your workspace directory for file access
+      # - ./workspace:/workspace:rw
+      # Optional: Mount your home directory for SSH keys and git config
+      # - $HOME/.ssh:/root/.ssh:ro
+      # - $HOME/.gitconfig:/root/.gitconfig:ro
+    extra_hosts:
+      # Linux-specific host gateway configuration
+      - "host.docker.internal:host-gateway"
+    # Ensure latest images are pulled
+    pull_policy: always
+    # Add security options for Linux
+    security_opt:
+      - seccomp:unconfined
+    # Increase shared memory for better performance
+    shm_size: 2gb
+    # Set proper user permissions for Linux
+    user: "0:0"
+
+volumes:
+  # Persistent volume for OpenHands state
+  openhands_state:
+    driver: local
+
+# Optional: Custom network for isolation
+networks:
+  default:
+    name: openhands_network
